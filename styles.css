@@ -111,21 +111,23 @@ img, svg{ max-width:100%; height:auto; display:block; }
 /* Drawer con fondo sólido y scroll interno */
 .nav-drawer{
   position: fixed;
-  top: 0; right: 0; bottom: 0; left: auto;
+  top: 40px; /* baja un poco desde arriba */
+  right: 0;
+  bottom: 40px; /* deja espacio abajo */
+  left: auto;
   width: min(86%, 360px);
-  background: #0f1623;             /* fondo directo, sin ::before */
-  z-index: 9999;                    /* asegúrate de que quede por encima de todo */
+  background: rgba(15, 22, 35, 0.92); /* semi-transparente */
+  backdrop-filter: blur(12px); /* efecto glass */
+  border-radius: 16px 0 0 16px; /* esquinas redondeadas lado izquierdo */
+  z-index: 9999;
   display: flex;
   flex-direction: column;
   padding: 16px;
-  box-shadow: var(--shadow);
+  box-shadow: 0 8px 32px rgba(0,0,0,.4);
   opacity: 0;
   transform: translateY(6px) scale(.98);
   pointer-events: none;
-  transition: opacity .2s ease, transform .2s ease;
-  border-radius: 0;
-  overflow-y: auto;
-  padding-bottom: max(16px, env(safe-area-inset-bottom));
+  transition: opacity .25s ease, transform .25s ease;
 }
 
 .nav-drawer.open{
@@ -163,13 +165,17 @@ img, svg{ max-width:100%; height:auto; display:block; }
 .backdrop{
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,.45);
+  background: rgba(0,0,0,.25); /* menos oscuro */
+  backdrop-filter: blur(4px);   /* desenfoque del fondo */
   opacity: 0;
   pointer-events: none;
-  transition: opacity .2s ease;
-  z-index: 9998;   /* <-- justo debajo del drawer, encima de todo lo demás */
+  transition: opacity .25s ease;
+  z-index: 9998;
 }
-.backdrop.visible{ opacity:1; pointer-events:auto; }
+.backdrop.visible{
+  opacity: 1;
+  pointer-events: auto;
+}
 
 /* Hero */
 .hero{padding:64px 0 36px}
