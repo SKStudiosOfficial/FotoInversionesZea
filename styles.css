@@ -18,7 +18,10 @@
 *{box-sizing:border-box}
 html,body{
   height:100%;
-  min-width:320px; /* ★ Evita que se encoja demasiado */
+  min-width:320px;                 /* evita que se encoja demasiado */
+  overflow-x:hidden;               /* bloquea scroll horizontal */
+  overscroll-behavior-x:none;      /* bloquea overscroll lateral */
+  touch-action:pan-y;              /* solo scroll vertical */
 }
 body{
   margin:0;
@@ -29,8 +32,7 @@ body{
     radial-gradient(40vw 40vw at -10% 10%, rgba(255,77,79,.12), transparent 35%),
     var(--bg);
   line-height:1.6;
-  overflow-x: hidden; /* ★ Evita scroll horizontal */
-  font-size: clamp(14px, 1.1vw, 18px); /* ★ Mantiene legible el texto */
+  font-size: clamp(14px, 1.1vw, 18px); /* mantiene legible el texto */
 }
 
 /* Containers */
@@ -57,11 +59,10 @@ body{
 .hamburger.active span:nth-child(2){opacity:0}
 .hamburger.active span:nth-child(3){top:20px; transform:rotate(-45deg)}
 
-/* Drawer */
 /* Drawer sin slide: aparece con fade + scale */
 .nav-drawer{
   position: fixed;
-  right: 16px; top: 16px; bottom: 16px; left: auto;        /* pegado al borde derecho pero sin sacar el layout */
+  right: 16px; top: 16px; bottom: 16px; left: auto;
   width: min(86%, 360px);
   background: var(--surface);
   z-index: 60;
@@ -72,7 +73,7 @@ body{
   opacity: 0;
   transform: translateY(6px) scale(.98);
   pointer-events: none;
-  transition: opacity .2s ease, transform .2s ease;        /* animación rápida y fluida */
+  transition: opacity .2s ease, transform .2s ease;
 }
 .nav-drawer.open{
   opacity: 1;
@@ -80,7 +81,7 @@ body{
   pointer-events: auto;
 }
 
-/* Backdrop igual pero animación más rápida */
+/* Backdrop */
 .backdrop{
   position: fixed; inset: 0;
   background: rgba(0,0,0,.45);
@@ -89,7 +90,7 @@ body{
   z-index: 55;
 }
 .backdrop.visible{ opacity:1; pointer-events:auto; }
-.backdrop.visible{opacity:1; pointer-events:auto}
+
 .drawer-header{display:flex; align-items:center; justify-content:space-between; padding:6px 4px 12px; border-bottom:1px solid rgba(255,255,255,.06)}
 .drawer-brand{display:flex; align-items:center; gap:10px}
 .drawer-brand img{width:28px}
@@ -191,17 +192,33 @@ body{
 @media (max-width: 1024px){
   .hero-grid{grid-template-columns:1fr; text-align:center}
   .hero-actions{justify-content:center}
-  .hero-art{order:-1}
+  .hero-art{order:1}  /* <-- antes estaba -1: ahora el texto va primero */
   .service-grid{grid-template-columns:repeat(2, 1fr)}
   .about{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr}
 }
+
 @media (max-width: 860px){
   .nav-links{display:none}
   .hamburger{display:block}
   .catalog-grid{grid-template-columns:repeat(2, 1fr)}
   .footer-grid{grid-template-columns:1fr}
+
+  /* Reducir hero/art en tablet-móvil */
+  .hero{padding:40px 0 24px;}
+  .hero-art{min-height:200px;}
+  .phone-stack{height:260px;}
+  .phone-card{width:170px; height:340px;}
+  .glow{height:44px;}
 }
+
 @media (max-width: 520px){
   .catalog-grid{grid-template-columns:1fr}
+
+  /* Móvil pequeño */
+  .hero{padding:28px 0 18px;}
+  .hero-title{font-size: clamp(22px, 8vw, 30px);}
+  .hero-sub{font-size:.95rem;}
+  .phone-stack{height:220px;}
+  .phone-card{width:150px; height:300px;}
 }
