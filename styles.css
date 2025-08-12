@@ -318,7 +318,7 @@ img, svg{ max-width:100%; height:auto; display:block; }
 }
 
 @media (max-width: 860px){
-  .nav-links{display:none}
+  .site-header .nav-links{display:none}
   .hamburger{display:block}
   .catalog-grid{grid-template-columns:repeat(2, 1fr)}
   .footer-grid{grid-template-columns:1fr}
