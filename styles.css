@@ -194,13 +194,16 @@ body{
 @media (max-width: 1024px){
   .hero-grid{grid-template-columns:1fr; text-align:center}
   .hero-actions{justify-content:center}
-  .hero-art{order:1}  /* <-- antes estaba -1: ahora el texto va primero */
+  .hero-art{order:1}  /* antes estaba -1: ahora el texto va primero */
   .service-grid{grid-template-columns:repeat(2, 1fr)}
   .about{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr}
 }
 
 @media (max-width: 860px){
+  .hero-art {
+    display: none; /* Oculta el teléfono animado en móvil */
+  }
   .nav-links{display:none}
   .hamburger{display:block}
   .catalog-grid{grid-template-columns:repeat(2, 1fr)}
@@ -224,3 +227,4 @@ body{
   .phone-stack{height:220px;}
   .phone-card{width:150px; height:300px;}
 }
+
