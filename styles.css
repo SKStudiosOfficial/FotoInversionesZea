@@ -38,7 +38,11 @@ body{
 }
 
 /* Bloqueo de scroll cuando el drawer está abierto (añadir/quitar con JS) */
-.body-lock{ overflow:hidden; }
+.body-lock{
+  overflow: hidden;
+  touch-action: none;
+}
+
 
 /* Accesibilidad: estados de focus visibles */
 a:focus-visible, button:focus-visible, .btn:focus-visible, .nav-link:focus-visible{
@@ -67,7 +71,7 @@ img, svg{ max-width:100%; height:auto; display:block; }
 .site-header{
   position: sticky;
   top: 0;
-  z-index: 2000;   /* <-- antes 50 */
+  z-index: 20;   /* <-- antes 50 */
   background: rgba(10,14,20,.55);
   border-bottom: 1px solid rgba(255,255,255,.06);
 }
@@ -110,7 +114,7 @@ img, svg{ max-width:100%; height:auto; display:block; }
   top: 0; right: 0; bottom: 0; left: auto;
   width: min(86%, 360px);
   background: #0f1623;             /* fondo directo, sin ::before */
-  z-index: 2002;                    /* asegúrate de que quede por encima de todo */
+  z-index: 9999;                    /* asegúrate de que quede por encima de todo */
   display: flex;
   flex-direction: column;
   padding: 16px;
@@ -163,7 +167,7 @@ img, svg{ max-width:100%; height:auto; display:block; }
   opacity: 0;
   pointer-events: none;
   transition: opacity .2s ease;
-  z-index: 2001;   /* <-- justo debajo del drawer, encima de todo lo demás */
+  z-index: 9998;   /* <-- justo debajo del drawer, encima de todo lo demás */
 }
 .backdrop.visible{ opacity:1; pointer-events:auto; }
 
