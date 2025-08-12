@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Todo Computación — Catálogo de Teléfonos</title>
+  <meta name="description" content="Catálogo y servicios de la tienda local de teléfonos: Todo Computación. Sin ventas online. Asesoría, reparación y accesorios." />
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#" class="brand">
+        <img src="assets/logo.svg" alt="Logo Todo Computación" class="brand-logo" />
+        <span class="brand-name">Foto Inversiones Zea Todo Computación</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#catalogo" class="nav-link">Catálogo</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#nosotros" class="nav-link">Quiénes somos</a>
+        <a href="#contacto" class="nav-link cta">Contacto</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-controls="nav-drawer" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Drawer -->
+    <aside class="nav-drawer" id="nav-drawer" aria-hidden="true">
+      <div class="drawer-header">
+        <div class="drawer-brand">
+          <img src="assets/logo.svg" alt="Logo" />
+          <strong>Todo Computación</strong>
+        </div>
+        <button class="drawer-close" id="drawer-close" aria-label="Cerrar menú">✕</button>
+      </div>
+      <a href="#catalogo" class="drawer-link">Catálogo</a>
+      <a href="#servicios" class="drawer-link">Servicios</a>
+      <a href="#nosotros" class="drawer-link">Quiénes somos</a>
+      <a href="#contacto" class="drawer-link">Contacto</a>
+      <div class="drawer-actions">
+        <a target="_blank" id="whatsappTop" class="btn btn-whatsapp" rel="noopener">WhatsApp</a>
+        <a href="tel:+0000000000" class="btn btn-outline">Llamar</a>
+      </div>
+    </aside>
+    <div class="backdrop" id="backdrop" aria-hidden="true"></div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="badge">📍 Tovar</p>
+        <h1 class="hero-title">Los mejores <span class="txt-gradient">teléfonos y accesorios</span> en un solo lugar</h1>
+        <p class="hero-sub">Sin ventas online — te asesoramos en persona para que elijas justo lo que necesitas.</p>
+        <div class="hero-actions">
+          <a href="#catalogo" class="btn btn-primary">Ver catálogo</a>
+          <a target="_blank" id="whatsappHero" class="btn btn-whatsapp" rel="noopener">WhatsApp</a>
+        </div>
+        <ul class="meta-list">
+          <li>🕘 <strong>Horarios:</strong> Lun–Sáb 9:00–18:00</li>
+          <li>📞 <strong>Tel:</strong> <a href="tel:+0000000000">+00 000 000 000</a></li>
+          <li>📍 <strong>Dirección:</strong> Reemplaza con tu ubicación</li>
+        </ul>
+      </div>
+      <div class="hero-art">
+        <div class="phone-stack">
+          <div class="phone-card card-a"></div>
+          <div class="phone-card card-b"></div>
+          <div class="phone-card card-c"></div>
+        </div>
+        <div class="glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catálogo -->
+  <section id="catalogo" class="section">
+    <div class="container">
+      <header class="section-head">
+        <h2>Catálogo de Teléfonos</h2>
+        <p>Modelos disponibles. Consulta precio y stock por WhatsApp.</p>
+      </header>
+
+      <div class="filters">
+        <input id="searchInput" type="search" placeholder="Buscar modelo o característica…" aria-label="Buscar" />
+        <select id="brandFilter" aria-label="Filtrar por marca">
+          <option value="">Todas las marcas</option>
+          <option>Apple</option>
+          <option>Samsung</option>
+          <option>Xiaomi</option>
+          <option>Motorola</option>
+          <option>Huawei</option>
+          <option>Realme</option>
+          <option>Otros</option>
+        </select>
+        <select id="conditionFilter" aria-label="Filtrar por condición">
+          <option value="">Todo</option>
+          <option value="Nuevo">Nuevo</option>
+          <option value="Reacondicionado">Reacondicionado</option>
+        </select>
+      </div>
+
+      <div id="catalogGrid" class="catalog-grid" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="section alt">
+    <div class="container">
+      <header class="section-head">
+        <h2>Servicios</h2>
+        <p>Mucho más que teléfonos.</p>
+      </header>
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <div class="icon">🔧</div>
+          <h3>Reparación</h3>
+          <p>Cambio de pantalla, batería y más. Técnicos de confianza.</p>
+        </article>
+        <article class="service-card reveal">
+          <div class="icon">🔓</div>
+          <h3>Liberación</h3>
+          <p>Desbloqueo y actualización de software.</p>
+        </article>
+        <article class="service-card reveal">
+          <div class="icon">🛡️</div>
+          <h3>Garantía</h3>
+          <p>Respaldo en productos y servicio postventa.</p>
+        </article>
+        <article class="service-card reveal">
+          <div class="icon">🎧</div>
+          <h3>Accesorios</h3>
+          <p>Fundas, cargadores, audífonos y más.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nosotros -->
+  <section id="nosotros" class="section">
+    <div class="container">
+      <header class="section-head">
+        <h2>Quiénes somos</h2>
+        <p>Somos una tienda local enfocada en asesoría honesta y buenos precios.</p>
+      </header>
+      <div class="about">
+        <div class="about-text">
+          <p>En <strong>Todo Computación</strong> te ayudamos a elegir el teléfono ideal según tu uso y presupuesto. Probamos los equipos en el momento, configuramos tus apps esenciales y migramos tus datos.</p>
+          <ul class="checklist">
+            <li>Atención cercana y personalizada</li>
+            <li>Stock actualizado y variedad de marcas</li>
+            <li>Servicio técnico y garantía</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>¿Por qué elegirnos?</h3>
+          <p>Porque te acompañamos de principio a fin y resolvemos tus dudas sin presión de compra.</p>
+          <a href="#catalogo" class="btn btn-primary">Explorar catálogo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section alt">
+    <div class="container">
+      <header class="section-head">
+        <h2>Contacto y Ubicación</h2>
+        <p>Visítanos o escríbenos, ¡respondemos rápido!</p>
+      </header>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Contáctanos</h3>
+          <p><strong>Tel:</strong> <a href="tel:+0000000000">+00 000 000 000</a></p>
+          <p><strong>WhatsApp:</strong> <a target="_blank" id="whatsappBottom" rel="noopener">Enviar mensaje</a></p>
+          <p><strong>Correo:</strong> <a href="mailto:ventas@todocomputacion.local">ventas@todocomputacion.local</a></p>
+          <p><strong>Horario:</strong> Lun–Sáb 9:00–18:00</p>
+          <div class="contact-actions">
+            <a target="_blank" id="whatsappCTA" class="btn btn-whatsapp" rel="noopener">Abrir WhatsApp</a>
+            <a href="tel:+0000000000" class="btn btn-outline">Llamar</a>
+          </div>
+        </div>
+
+        <div class="map-card">
+          <iframe title="Ubicación en Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.973116!2d-74.08175!3d4.60971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1ses-419!2s!4v0000000000" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo.svg" alt="Logo" />
+        <p>© <span id="year"></span> Todo Computación. Todos los derechos reservados.</p>
+      </div>
+      <nav class="footer-links">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="footer-meta">
+        <p>Hecho con ❤ en tu ciudad.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
