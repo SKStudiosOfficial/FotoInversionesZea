@@ -343,3 +343,25 @@ img, svg{ max-width:100%; height:auto; display:block; }
   .phone-stack{height:220px;}
   .phone-card{width:150px; height:300px;}
 }
+
+.nav-drawer .nav-links{
+  display:flex !important;          /* anula el display:none del breakpoint */
+  flex-direction:column;
+  gap:8px;
+  padding:8px 0;
+}
+
+.nav-drawer .nav-link{
+  display:block;
+  padding:14px 12px;
+  color:var(--text);
+  text-decoration:none;
+  border-radius:12px;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.06);
+  opacity:1;                        
+}
+
+.nav-drawer .nav-link:hover{
+  background:rgba(255,255,255,.08);
+}
