@@ -65,9 +65,11 @@ img, svg{ max-width:100%; height:auto; display:block; }
 
 /* Header / Nav */
 .site-header{
-  position:sticky; top:0; z-index:50;
-  background:rgba(10,14,20,.55);
-  border-bottom:1px solid rgba(255,255,255,.06);
+  position: sticky;
+  top: 0;
+  z-index: 2000;   /* <-- antes 50 */
+  background: rgba(10,14,20,.55);
+  border-bottom: 1px solid rgba(255,255,255,.06);
 }
 @supports (backdrop-filter: blur(10px)){
   .site-header{ backdrop-filter: blur(10px); }
@@ -108,7 +110,7 @@ img, svg{ max-width:100%; height:auto; display:block; }
   top: 0; right: 0; bottom: 0; left: auto;
   width: min(86%, 360px);
   background: #0f1623;             /* fondo directo, sin ::before */
-  z-index: 1000;                    /* asegúrate de que quede por encima de todo */
+  z-index: 2002;                    /* asegúrate de que quede por encima de todo */
   display: flex;
   flex-direction: column;
   padding: 16px;
@@ -155,8 +157,13 @@ img, svg{ max-width:100%; height:auto; display:block; }
 
 /* Backdrop */
 .backdrop{
-  position: fixed; inset: 0; background: rgba(0,0,0,.45);
-  opacity: 0; pointer-events: none; transition: opacity .2s ease; z-index: 55;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s ease;
+  z-index: 2001;   /* <-- justo debajo del drawer, encima de todo lo demás */
 }
 .backdrop.visible{ opacity:1; pointer-events:auto; }
 
