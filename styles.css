@@ -16,7 +16,10 @@
 }
 
 *{box-sizing:border-box}
-html,body{height:100%}
+html,body{
+  height:100%;
+  min-width:320px; /* ★ Evita que se encoja demasiado */
+}
 body{
   margin:0;
   font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
@@ -26,6 +29,8 @@ body{
     radial-gradient(40vw 40vw at -10% 10%, rgba(255,77,79,.12), transparent 35%),
     var(--bg);
   line-height:1.6;
+  overflow-x: hidden; /* ★ Evita scroll horizontal */
+  font-size: clamp(14px, 1.1vw, 18px); /* ★ Mantiene legible el texto */
 }
 
 /* Containers */
