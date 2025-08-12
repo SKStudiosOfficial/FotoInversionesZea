@@ -2,7 +2,7 @@
 // Configuración
 // =============================
 const CONFIG = {
-  whatsappNumber: '+0000000000', // <-- Reemplaza por tu número con código de país. Ej: +584141234567
+  whatsappNumber: '+584167602644', // <-- Reemplaza por tu número con código de país. Ej: +584141234567
   whatsappTextGeneral: 'Hola, me interesa su catálogo de teléfonos.',
 };
 
