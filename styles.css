@@ -107,8 +107,8 @@ img, svg{ max-width:100%; height:auto; display:block; }
   position: fixed;
   top: 0; right: 0; bottom: 0; left: auto;
   width: min(86%, 360px);
-  background: #0f1623;             /* fondo directo, sin ::before */
-  z-index: 1000;                    /* asegúrate de que quede por encima de todo */
+  background: transparent;          /* fondo real en ::before */
+  z-index: 60;
   display: flex;
   flex-direction: column;
   padding: 16px;
@@ -118,15 +118,23 @@ img, svg{ max-width:100%; height:auto; display:block; }
   pointer-events: none;
   transition: opacity .2s ease, transform .2s ease;
   border-radius: 0;
-  overflow-y: auto;
+  overflow-y: auto;                 /* si hay muchos links, que scrollee */
   padding-bottom: max(16px, env(safe-area-inset-bottom));
 }
-
 .nav-drawer.open{
   opacity: 1;
   transform: none;
   pointer-events: auto;
 }
+/* Capa de fondo del drawer */
+.nav-drawer::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #0f1623;             /* o var(--surface) */
+}
+/* Asegura que el contenido quede por encima del ::before */
+.nav-drawer > *{ position: relative; z-index: 1; }
 
 .drawer-header{
   display:flex; align-items:center; justify-content:space-between;
@@ -137,18 +145,18 @@ img, svg{ max-width:100%; height:auto; display:block; }
 
 .drawer-link{
   display:block;
-  padding:14px 12px;
+  padding:14px 10px;
   color:var(--text);
   text-decoration:none;
+  border-bottom:1px solid rgba(255,255,255,.06);
   border-radius:12px;
-  background:rgba(255,255,255,.04);
-  border:1px solid rgba(255,255,255,.06);
-  opacity:1;
+  background: rgba(255,255,255,.02);
+  opacity:.95;
 }
 .drawer-link:hover{
-  background:rgba(255,255,255,.08);
+  opacity:1;
+  background: rgba(255,255,255,.06);
 }
-
 
 .drawer-actions{display:flex; gap:10px; padding:14px 0}
 .drawer-close{background:transparent; border:0; color:var(--text); font-size:20px; cursor:pointer}
