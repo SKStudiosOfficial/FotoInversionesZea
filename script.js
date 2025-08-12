@@ -39,14 +39,18 @@ function openDrawer(){
   hamburger.classList.add('active');
   drawer.setAttribute('aria-hidden','false');
   hamburger.setAttribute('aria-expanded','true');
+  document.body.classList.add('body-lock');   // <-- añade esto
 }
+
 function closeDrawer(){
   drawer.classList.remove('open');
   backdrop.classList.remove('visible');
   hamburger.classList.remove('active');
   drawer.setAttribute('aria-hidden','true');
   hamburger.setAttribute('aria-expanded','false');
+  document.body.classList.remove('body-lock'); // <-- y esto
 }
+
 hamburger.addEventListener('click', () => {
   const isOpen = drawer.classList.contains('open');
   isOpen ? closeDrawer() : openDrawer();
