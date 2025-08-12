@@ -102,19 +102,58 @@ img, svg{ max-width:100%; height:auto; display:block; }
 .hamburger.active span:nth-child(2){opacity:0}
 .hamburger.active span:nth-child(3){top:20px; transform:rotate(-45deg)}
 
-/* Drawer sin slide: fade + scale */
+/* Drawer con fondo sólido y scroll interno */
 .nav-drawer{
-  position: fixed; top: 0; right: 0; bottom: 0; left: auto;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: auto;
   width: min(86%, 360px);
-  background: #0f1623; /* sólido --surface */
-  z-index: 60; display: flex; flex-direction: column;
-  padding: 16px; box-shadow: var(--shadow);
-  opacity: 0; transform: translateY(6px) scale(.98);
-  pointer-events: none; transition: opacity .2s ease, transform .2s ease;
+  /* OJO: reseteamos y delegamos el fondo al ::before para evitar overrides */
+  background: transparent;
+  z-index: 60;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transform: translateY(6px) scale(.98);
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
   border-radius: 0;
+  overflow-y: auto;                 /* <— si hay muchos links, que scrollee */
+  padding-bottom: max(16px, env(safe-area-inset-bottom));
 }
 .nav-drawer.open{
-  opacity: 1; transform: none; pointer-events: auto;
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+/* Capa de fondo del drawer (siempre visible detrás de los links) */
+.nav-drawer::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #0f1623;             /* o usa var(--surface) si prefieres */
+  /* Puedes hacerlo un pelín translúcido:
+     background: rgba(15,22,35,.98); */
+}
+
+/* Asegura que el contenido quede por encima del ::before */
+.nav-drawer > *{ position: relative; z-index: 1; }
+
+.drawer-link{
+  display:block;
+  padding:14px 10px;
+  color:var(--text);
+  text-decoration:none;
+  border-bottom:1px solid rgba(255,255,255,.06);
+  opacity:.95;
+  border-radius:12px;
+  background: rgba(255,255,255,.02);
+}
+.drawer-link:hover{
+  opacity:1;
+  background: rgba(255,255,255,.06);
 }
 
 /* Backdrop */
