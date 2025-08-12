@@ -351,7 +351,7 @@ img, svg{ max-width:100%; height:auto; display:block; }
   padding:8px 0;
 }
 
-.nav-drawer .nav-link{
+.nav-drawer .drawer-link{
   display:block;
   padding:14px 12px;
   color:var(--text);
@@ -362,6 +362,7 @@ img, svg{ max-width:100%; height:auto; display:block; }
   opacity:1;                        
 }
 
-.nav-drawer .nav-link:hover{
+.nav-drawer .drawer-link:hover{
   background:rgba(255,255,255,.08);
 }
+
