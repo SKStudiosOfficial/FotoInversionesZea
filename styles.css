@@ -111,30 +111,30 @@ img, svg{ max-width:100%; height:auto; display:block; }
 /* Drawer con fondo sólido y scroll interno */
 .nav-drawer{
   position: fixed;
-  top: 40px; /* baja un poco desde arriba */
   right: 0;
-  bottom: 40px; /* deja espacio abajo */
-  left: auto;
+  top: clamp(16px, 4dvh, 40px);
+  bottom: clamp(16px, 4dvh, 40px);    /* deja aire arriba/abajo en todos los móviles */
   width: min(86%, 360px);
-  background: rgba(15, 22, 35, 0.92); /* semi-transparente */
-  backdrop-filter: blur(12px); /* efecto glass */
-  border-radius: 16px 0 0 16px; /* esquinas redondeadas lado izquierdo */
+  background: rgba(15,22,35,0.92);
+  backdrop-filter: blur(12px);
+  border-radius: 16px 0 0 16px;
   z-index: 9999;
   display: flex;
   flex-direction: column;
   padding: 16px;
+
+  /* 👉 clave para que NO “llene” todo y el contenido desborde dentro */
+  max-height: calc(100dvh - 2 * clamp(16px, 4dvh, 40px));
+  overflow: auto;
+
   box-shadow: 0 8px 32px rgba(0,0,0,.4);
   opacity: 0;
   transform: translateY(6px) scale(.98);
   pointer-events: none;
   transition: opacity .25s ease, transform .25s ease;
 }
+.nav-drawer.open{ opacity:1; transform:none; pointer-events:auto; }
 
-.nav-drawer.open{
-  opacity: 1;
-  transform: none;
-  pointer-events: auto;
-}
 /* Asegura que el contenido quede por encima del ::before */
 .nav-drawer > *{ position: relative; z-index: 1; }
 
@@ -165,16 +165,17 @@ img, svg{ max-width:100%; height:auto; display:block; }
 .backdrop{
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,.25); /* menos oscuro */
-  backdrop-filter: blur(4px);   /* desenfoque del fondo */
+  /* Degradado desde el borde derecho hacia el centro; transparente en el resto */
+  background: linear-gradient(to left, rgba(10,14,20,.55), rgba(10,14,20,.35) 30%, transparent 65%);
+  /* si quieres aún más sutil: .35 -> .25 y .55 -> .40 */
   opacity: 0;
-  pointer-events: none;
+  pointer-events: none;       /* no estorba cuando está oculto */
   transition: opacity .25s ease;
   z-index: 9998;
 }
 .backdrop.visible{
   opacity: 1;
-  pointer-events: auto;
+  pointer-events: auto;       /* permite cerrar al tocar fuera */
 }
 
 /* Hero */
