@@ -121,6 +121,7 @@ const PHONE_SVG = `<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"
 </svg>`;
 
 // Render catálogo
+// Render catálogo
 const grid = document.getElementById('catalogGrid');
 function renderProducts(list){
   grid.innerHTML = '';
@@ -128,7 +129,11 @@ function renderProducts(list){
     grid.innerHTML = '<p>No se encontraron resultados.</p>';
     return;
   }
-  list.forEach((p, i) => {
+
+  // NUEVO: tomar el límite del data-attribute si existe
+  const limit = grid?.dataset?.limit ? parseInt(grid.dataset.limit, 10) : list.length;
+
+  list.slice(0, limit).forEach((p, i) => {
     const card = document.createElement('article');
     card.className = 'product-card';
     card.style.animationDelay = (i * 60) + 'ms';
@@ -150,6 +155,7 @@ function renderProducts(list){
   });
 }
 renderProducts(PRODUCTS);
+
 
 // Filtros y búsqueda
 const brandFilter = document.getElementById('brandFilter');
