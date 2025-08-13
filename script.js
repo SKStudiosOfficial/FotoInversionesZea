@@ -31,7 +31,7 @@ function slugify(str = '') {
 const MAX_HOME_ITEMS = 10;
 const url = new URL(window.location.href);
 const params = url.searchParams;
-let showingAll = params.get('view') === 'all';
+let showingAll = (params.get('view') === 'all') || window.FORCE_SHOW_ALL === true;
 
 /* ---------- Referencias DOM (robustas) ---------- */
 
