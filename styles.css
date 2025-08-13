@@ -237,22 +237,6 @@ img, svg{ max-width:100%; height:auto; display:block; }
 .section-head h2{margin:0 0 8px}
 .section-head p{color:var(--muted); margin:0 0 24px}
 
-/* Header de sección con acción a la derecha */
-.section-head.with-action{
-  display:flex;
-  align-items:flex-end;
-  justify-content:space-between;
-  gap:12px;
-  flex-wrap:wrap;
-}
-.section-head.with-action .btn{
-  align-self:flex-start;
-}
-
-/* Utilidad para ocultar */
-.hidden{ display:none !important; }
-
-
 /* Filters */
 .filters{display:flex; flex-wrap:wrap; gap:10px; margin-bottom:16px}
 .filters input,.filters select{
