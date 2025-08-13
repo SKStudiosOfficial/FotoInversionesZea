@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <title>Catálogo completo — Todo Computación</title>
+  <meta name="description" content="Explora todo el catálogo: teléfonos, televisores, PCs, almacenamiento y accesorios." />
+  <link rel="icon" href="../assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="../" class="brand">
+        <img src="../assets/logo.svg" alt="Logo Todo Computación" class="brand-logo" />
+        <span class="brand-name">Todo Computación</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="../" class="nav-link">Inicio</a>
+        <a href="#" class="nav-link cta">Catálogo</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-controls="nav-drawer" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <header class="section-head">
+        <h1>Catálogo completo</h1>
+        <p>Todos los productos disponibles en tienda. Consulta precio y stock por WhatsApp.</p>
+      </header>
+
+      <!-- filtros existentes en tu JS: searchInput, brandFilter, conditionFilter -->
+      <div class="filters">
+        <input id="searchInput" type="search" placeholder="Buscar por modelo o característica…" aria-label="Buscar" />
+        <select id="brandFilter" aria-label="Filtrar por marca">
+          <option value="">Todas las marcas</option>
+          <option>Apple</option>
+          <option>Samsung</option>
+          <option>Xiaomi</option>
+          <option>Motorola</option>
+          <option>Huawei</option>
+          <option>Realme</option>
+          <option>Otros</option>
+        </select>
+        <select id="conditionFilter" aria-label="Filtrar por condición">
+          <option value="">Todo</option>
+          <option value="Nuevo">Nuevo</option>
+          <option value="Reacondicionado">Reacondicionado</option>
+        </select>
+      </div>
+
+      <!-- SIN data-limit: muestra todo -->
+      <div id="catalogGrid" class="catalog-grid" aria-live="polite"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="../assets/logo.svg" alt="Logo" />
+        <p>© <span id="year"></span> Todo Computación. Todos los derechos reservados.</p>
+      </div>
+      <nav class="footer-links">
+        <a href="../">Inicio</a>
+        <a href="#">Catálogo</a>
+      </nav>
+      <div class="footer-meta">
+        <a target="_blank" id="whatsappBottom" class="btn btn-whatsapp" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Drawer y backdrop -->
+  <aside class="nav-drawer" id="nav-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-brand">
+        <img src="../assets/logo.svg" alt="Logo" />
+        <strong>Todo Computación</strong>
+      </div>
+      <button class="drawer-close" id="drawer-close" aria-label="Cerrar menú">✕</button>
+    </div>
+    <a href="../" class="drawer-link">Inicio</a>
+    <a href="#" class="drawer-link">Catálogo</a>
+    <div class="drawer-actions">
+      <a target="_blank" id="whatsappTop" class="btn btn-whatsapp" rel="noopener">WhatsApp</a>
+      <a href="tel:+584120702811" class="btn btn-outline">Llamar</a>
+    </div>
+  </aside>
+  <div class="backdrop" id="backdrop" aria-hidden="true"></div>
+
+  <script src="../script.js"></script>
+</body>
+</html>
