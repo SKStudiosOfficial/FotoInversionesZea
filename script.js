@@ -170,7 +170,7 @@ function applyFilters(){
   });
   renderProducts(result);
 }
-//
+
 [brandFilter, conditionFilter].forEach(el => el.addEventListener('change', applyFilters));
 searchInput.addEventListener('input', applyFilters);
 
