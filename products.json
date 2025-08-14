@@ -1,0 +1,90 @@
+[
+  {
+    "title": "iPhone 14 Pro Max",
+    "brand": "Apple",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": ["256GB", "Pantalla OLED", "Triple cámara"],
+    "image": "assets/products/iphone14promax.jpg"
+  },
+  {
+    "title": "Samsung Galaxy S23 Ultra",
+    "brand": "Samsung",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": ["512GB", "200MP cámara", "S-Pen incluido"],
+    "image": "assets/products/s23ultra.jpg"
+  },
+  {
+    "title": "Xiaomi Redmi Note 12",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": ["128GB", "Carga rápida", "Cámara triple"],
+    "image": "assets/products/redminote12.jpg"
+  },
+  {
+    "title": "Smart TV LG 55\" 4K",
+    "brand": "LG",
+    "condition": "Nuevo",
+    "category": "Televisores",
+    "features": ["4K UHD", "HDR10", "WebOS"],
+    "image": "assets/products/lg55.jpg"
+  },
+  {
+    "title": "Smart TV Samsung 65\" QLED",
+    "brand": "Samsung",
+    "condition": "Nuevo",
+    "category": "Televisores",
+    "features": ["QLED", "4K UHD", "Smart TV"],
+    "image": "assets/products/samsung65qled.jpg"
+  },
+  {
+    "title": "PC Gamer Intel i7 + RTX 3060",
+    "brand": "Custom",
+    "condition": "Nuevo",
+    "category": "PCs",
+    "features": ["16GB RAM", "1TB SSD", "RTX 3060"],
+    "image": "assets/products/pcgamer3060.jpg"
+  },
+  {
+    "title": "Laptop Dell Inspiron 15",
+    "brand": "Dell",
+    "condition": "Usado",
+    "category": "PCs",
+    "features": ["8GB RAM", "256GB SSD", "Windows 11"],
+    "image": "assets/products/dellinspiron15.jpg"
+  },
+  {
+    "title": "Pendrive Kingston 64GB",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Almacenamiento",
+    "features": ["USB 3.2", "Compacto", "Resistente"],
+    "image": "assets/products/kingston64gb.jpg"
+  },
+  {
+    "title": "Disco Duro Externo WD 2TB",
+    "brand": "Western Digital",
+    "condition": "Nuevo",
+    "category": "Almacenamiento",
+    "features": ["USB 3.0", "2TB", "Portátil"],
+    "image": "assets/products/wd2tb.jpg"
+  },
+  {
+    "title": "Mouse Logitech G502",
+    "brand": "Logitech",
+    "condition": "Nuevo",
+    "category": "Accesorios",
+    "features": ["RGB", "11 botones", "Sensor HERO"],
+    "image": "assets/products/logitechg502.jpg"
+  },
+  {
+    "title": "Teclado Mecánico Redragon Kumara",
+    "brand": "Redragon",
+    "condition": "Nuevo",
+    "category": "Accesorios",
+    "features": ["Switches Red", "Compacto", "Retroiluminado"],
+    "image": "assets/products/redragonkumara.jpg"
+  }
+]
