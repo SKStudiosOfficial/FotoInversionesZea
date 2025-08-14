@@ -82,8 +82,8 @@ function renderProducts(list){
     return;
   }
 
-  const limit = grid?.dataset?.limit ? parseInt(grid.dataset.limit, 9) : list.length;
-
+  const limit = grid?.dataset?.limit ? parseInt(grid.dataset.limit, 10) : list.length;
+  
   list.slice(0, limit).forEach((p, i) => {
     const card = document.createElement('article');
     card.className = 'product-card';
