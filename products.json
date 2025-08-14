@@ -1,90 +1,978 @@
 [
   {
-    "title": "iPhone 14 Pro Max",
-    "brand": "Apple",
+    "title": "HONOR 200 LITE",
+    "brand": "Honor",
     "condition": "Nuevo",
     "category": "Teléfonos",
-    "features": ["256GB", "Pantalla OLED", "Triple cámara"],
-    "image": "assets/products/iphone14promax.jpg"
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2195.jpg",
+    "code": "C2195"
   },
   {
-    "title": "Samsung Galaxy S23 Ultra",
+    "title": "HONOR MAGIC 6 LITE 5G",
+    "brand": "Honor",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C1897.jpg",
+    "code": "C1897"
+  },
+  {
+    "title": "HONOR MAGIC 7 LITE 5G",
+    "brand": "Honor",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C1925.jpg",
+    "code": "C1925"
+  },
+  {
+    "title": "HONOR PLAY 9A",
+    "brand": "Honor",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "64 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C2188.jpg",
+    "code": "C2188"
+  },
+  {
+    "title": "HONOR X6A PLUS",
+    "brand": "Honor",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "6 GB RAM"
+    ],
+    "image": "assets/products/C1821.jpg",
+    "code": "C1821"
+  },
+  {
+    "title": "HONOR X7C",
+    "brand": "Honor",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2193.jpg",
+    "code": "C2193"
+  },
+  {
+    "title": "HONOR X8C",
+    "brand": "Honor",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "512 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C1949.jpg",
+    "code": "C1949"
+  },
+  {
+    "title": "INFINIX GT 30 PRO",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "12 GB RAM"
+    ],
+    "image": "assets/products/C2004.jpg",
+    "code": "C2004"
+  },
+  {
+    "title": "INFINIX GT 30 PRO",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "512 GB ROM",
+      "12 GB RAM"
+    ],
+    "image": "assets/products/C2007.jpg",
+    "code": "C2007"
+  },
+  {
+    "title": "INFINIX HOT 50 PRO +",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2384.jpg",
+    "code": "C2384"
+  },
+  {
+    "title": "INFINIX HOT 50 PRO+",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2210.jpg",
+    "code": "C2210"
+  },
+  {
+    "title": "INFINIX HOT 50 PRO",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2212.jpg",
+    "code": "C2212"
+  },
+  {
+    "title": "INFINIX HOT 50I",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C2219.jpg",
+    "code": "C2219"
+  },
+  {
+    "title": "INFINIX HOT 60 PRO +",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2375.jpg",
+    "code": "C2375"
+  },
+  {
+    "title": "INFINIX HOT 60 PRO",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2279.jpg",
+    "code": "C2279"
+  },
+  {
+    "title": "INFINIX HOT 60I.",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C2282.jpg",
+    "code": "C2282"
+  },
+  {
+    "title": "INFINIX HOT 60I.",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2287.jpg",
+    "code": "C2287"
+  },
+  {
+    "title": "INFINIX NOTE 50 PRO",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "12 GB RAM"
+    ],
+    "image": "assets/products/C2199.jpg",
+    "code": "C2199"
+  },
+  {
+    "title": "INFINIX NOTE 50 PRO",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2203.jpg",
+    "code": "C2203"
+  },
+  {
+    "title": "INFINIX NOTE 50 PRO.",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2479.jpg",
+    "code": "C2479"
+  },
+  {
+    "title": "INFINIX SMART 10.",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C2109.jpg",
+    "code": "C2109"
+  },
+  {
+    "title": "INFINIX SMART 10.",
+    "brand": "Infinix",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "64 GB ROM",
+      "3 GB RAM"
+    ],
+    "image": "assets/products/C2062.jpg",
+    "code": "C2062"
+  },
+  {
+    "title": "IPHONE 12 PRO MAX",
+    "brand": "Iphone",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "GB RAM",
+      "IMEI1:",
+      "128 GB ROM"
+    ],
+    "image": "assets/products/C2514.jpg",
+    "code": "C2514"
+  },
+  {
+    "title": "IPHONE 12 PRO",
+    "brand": "Iphone",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "GB ROM",
+      "GB RAM",
+      "IMEI1:"
+    ],
+    "image": "assets/products/C2516.jpg",
+    "code": "C2516"
+  },
+  {
+    "title": "IPHONE 13.",
+    "brand": "Iphone",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "GB ROM",
+      "GB RAM"
+    ],
+    "image": "assets/products/C2457.jpg",
+    "code": "C2457"
+  },
+  {
+    "title": "IPHONE 14 PRO",
+    "brand": "Iphone",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "GB ROM",
+      "GB RAM",
+      "IMEI1:"
+    ],
+    "image": "assets/products/C2515.jpg",
+    "code": "C2515"
+  },
+  {
+    "title": "IPHONE 16 PRO MAX",
+    "brand": "Iphone",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "GB RAM",
+      "256 GB ROM"
+    ],
+    "image": "assets/products/C1428.jpg",
+    "code": "C1428"
+  },
+  {
+    "title": "IPHONE 16.",
+    "brand": "Iphone",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "GB ROM",
+      "GB RAM"
+    ],
+    "image": "assets/products/C2458.jpg",
+    "code": "C2458"
+  },
+  {
+    "title": "ITEL A50.",
+    "brand": "Itel",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "3 GB RAM"
+    ],
+    "image": "assets/products/C2242.jpg",
+    "code": "C2242"
+  },
+  {
+    "title": "ITEL A50.",
+    "brand": "Itel",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "64 GB ROM",
+      "3 GB RAM"
+    ],
+    "image": "assets/products/C1755.jpg",
+    "code": "C1755"
+  },
+  {
+    "title": "ITEL A80.",
+    "brand": "Itel",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C1948.jpg",
+    "code": "C1948"
+  },
+  {
+    "title": "ITEL A90.",
+    "brand": "Itel",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "3 GB RAM"
+    ],
+    "image": "assets/products/C2235.jpg",
+    "code": "C2235"
+  },
+  {
+    "title": "ITEL S25 ULTRA",
+    "brand": "Itel",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2215.jpg",
+    "code": "C2215"
+  },
+  {
+    "title": "KOLOR 220 5G",
+    "brand": "Kolor",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "GB ROM",
+      "GB RAM"
+    ],
+    "image": "assets/products/C2251.jpg",
+    "code": "C2251"
+  },
+  {
+    "title": "OLAX 4G+",
+    "brand": "Olax",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "GB ROM",
+      "GB RAM"
+    ],
+    "image": "assets/products/C2397.jpg",
+    "code": "C2397"
+  },
+  {
+    "title": "PANITA PRO 4G",
+    "brand": "Panita",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "512MBGB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C2137.jpg",
+    "code": "C2137"
+  },
+  {
+    "title": "PANITA PRO 4G",
+    "brand": "Panita",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "GB ROM",
+      "GB RAM"
+    ],
+    "image": "assets/products/C2308.jpg",
+    "code": "C2308"
+  },
+  {
+    "title": "PANITA",
+    "brand": "Panita",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "GB ROM",
+      "GB RAM"
+    ],
+    "image": "assets/products/C1676.jpg",
+    "code": "C1676"
+  },
+  {
+    "title": "POCO X7",
+    "brand": "Poco",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "512 GB ROM",
+      "12 GB RAM"
+    ],
+    "image": "assets/products/C1745.jpg",
+    "code": "C1745"
+  },
+  {
+    "title": "REDMI A3X",
+    "brand": "Redmi",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C1698.jpg",
+    "code": "C1698"
+  },
+  {
+    "title": "REDMI A3X.",
+    "brand": "Redmi",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C1412.jpg",
+    "code": "C1412"
+  },
+  {
+    "title": "REDMI NOTE 14 PRO + 5G",
+    "brand": "Redmi",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C1684.jpg",
+    "code": "C1684"
+  },
+  {
+    "title": "REDMI NOTE 14.",
+    "brand": "Redmi",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "6 GB RAM"
+    ],
+    "image": "assets/products/C1100.jpg",
+    "code": "C1100"
+  },
+  {
+    "title": "REDMI NOTE 14.",
+    "brand": "Redmi",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2351.jpg",
+    "code": "C2351"
+  },
+  {
+    "title": "REDMI NOTE 14PRO +",
+    "brand": "Redmi",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C1399.jpg",
+    "code": "C1399"
+  },
+  {
+    "title": "SAMSUNG A05.",
     "brand": "Samsung",
     "condition": "Nuevo",
     "category": "Teléfonos",
-    "features": ["512GB", "200MP cámara", "S-Pen incluido"],
-    "image": "assets/products/s23ultra.jpg"
+    "features": [
+      "64 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C1940.jpg",
+    "code": "C1940"
   },
   {
-    "title": "Xiaomi Redmi Note 12",
+    "title": "SAMSUNG A06.",
+    "brand": "Samsung",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "64 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C1324.jpg",
+    "code": "C1324"
+  },
+  {
+    "title": "SAMSUNG A16.",
+    "brand": "Samsung",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2092.jpg",
+    "code": "C2092"
+  },
+  {
+    "title": "SAMSUNG A26 5G",
+    "brand": "Samsung",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2370.jpg",
+    "code": "C2370"
+  },
+  {
+    "title": "SAMSUNG A26.",
+    "brand": "Samsung",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C1687.jpg",
+    "code": "C1687"
+  },
+  {
+    "title": "SAMSUNG A36 5G",
+    "brand": "Samsung",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C1671.jpg",
+    "code": "C1671"
+  },
+  {
+    "title": "SAMSUNG S25 ULTRA 5G",
+    "brand": "Samsung",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "512 GB ROM",
+      "12 GB RAM"
+    ],
+    "image": "assets/products/C2396.jpg",
+    "code": "C2396"
+  },
+  {
+    "title": "TABLET HYUNDAI",
+    "brand": "Tablet",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "GB ROM",
+      "GB RAM"
+    ],
+    "image": "assets/products/C1244.jpg",
+    "code": "C1244"
+  },
+  {
+    "title": "TABLET KRONO KIDS",
+    "brand": "Tablet",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "32 GB ROM",
+      "3 GB RAM"
+    ],
+    "image": "assets/products/C2124.jpg",
+    "code": "C2124"
+  },
+  {
+    "title": "TABLET TIGER 7\" TG 748",
+    "brand": "Tablet",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "32 GB ROM",
+      "2 GB RAM"
+    ],
+    "image": "assets/products/C1898.jpg",
+    "code": "C1898"
+  },
+  {
+    "title": "TABLET TIGER TG 748",
+    "brand": "Tablet",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "GB ROM",
+      "GB RAM"
+    ],
+    "image": "assets/products/C638.jpg",
+    "code": "C638"
+  },
+  {
+    "title": "TABLET TIGER TG-748.",
+    "brand": "Tablet",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "32 GB ROM",
+      "2 GB RAM"
+    ],
+    "image": "assets/products/C1895.jpg",
+    "code": "C1895"
+  },
+  {
+    "title": "TCL L5.",
+    "brand": "Tcl",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "16 GB ROM",
+      "1 GB RAM"
+    ],
+    "image": "assets/products/C2183.jpg",
+    "code": "C2183"
+  },
+  {
+    "title": "TECNO CAMON 40 PRO",
+    "brand": "Tecno",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C1952.jpg",
+    "code": "C1952"
+  },
+  {
+    "title": "TECNO GO1",
+    "brand": "Tecno",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "IMEI1:807",
+      "128 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C1900.jpg",
+    "code": "C1900"
+  },
+  {
+    "title": "TECNO POVA 6.",
+    "brand": "Tecno",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "12 GB RAM"
+    ],
+    "image": "assets/products/C1942.jpg",
+    "code": "C1942"
+  },
+  {
+    "title": "TECNO SPARK 30C",
+    "brand": "Tecno",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C2106.jpg",
+    "code": "C2106"
+  },
+  {
+    "title": "TECNO SPARK 40 PRO +",
+    "brand": "Tecno",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2407.jpg",
+    "code": "C2407"
+  },
+  {
+    "title": "TECNO SPARK 40 PRO",
+    "brand": "Tecno",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2401.jpg",
+    "code": "C2401"
+  },
+  {
+    "title": "TECNO SPARK 40C",
+    "brand": "Tecno",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2501.jpg",
+    "code": "C2501"
+  },
+  {
+    "title": "TECNO SPARK GO 1S.",
+    "brand": "Tecno",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "64 GB ROM",
+      "3 GB RAM"
+    ],
+    "image": "assets/products/C1154.jpg",
+    "code": "C1154"
+  },
+  {
+    "title": "TECNO SPARK GO 2.",
+    "brand": "Tecno",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C2489.jpg",
+    "code": "C2489"
+  },
+  {
+    "title": "TECNO SPARK GO 2.",
+    "brand": "Tecno",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "64 GB ROM",
+      "3 GB RAM"
+    ],
+    "image": "assets/products/C2129.jpg",
+    "code": "C2129"
+  },
+  {
+    "title": "XIAOMI REDMI 14C",
     "brand": "Xiaomi",
     "condition": "Nuevo",
     "category": "Teléfonos",
-    "features": ["128GB", "Carga rápida", "Cámara triple"],
-    "image": "assets/products/redminote12.jpg"
+    "features": [
+      "128 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C2224.jpg",
+    "code": "C2224"
   },
   {
-    "title": "Smart TV LG 55\" 4K",
-    "brand": "LG",
+    "title": "XIAOMI REDMI 14C",
+    "brand": "Xiaomi",
     "condition": "Nuevo",
-    "category": "Televisores",
-    "features": ["4K UHD", "HDR10", "WebOS"],
-    "image": "assets/products/lg55.jpg"
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2435.jpg",
+    "code": "C2435"
   },
   {
-    "title": "Smart TV Samsung 65\" QLED",
-    "brand": "Samsung",
+    "title": "XIAOMI REDMI 14C.",
+    "brand": "Xiaomi",
     "condition": "Nuevo",
-    "category": "Televisores",
-    "features": ["QLED", "4K UHD", "Smart TV"],
-    "image": "assets/products/samsung65qled.jpg"
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C2425.jpg",
+    "code": "C2425"
   },
   {
-    "title": "PC Gamer Intel i7 + RTX 3060",
-    "brand": "Custom",
+    "title": "XIAOMI REDMI 15.",
+    "brand": "Xiaomi",
     "condition": "Nuevo",
-    "category": "PCs",
-    "features": ["16GB RAM", "1TB SSD", "RTX 3060"],
-    "image": "assets/products/pcgamer3060.jpg"
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "6 GB RAM"
+    ],
+    "image": "assets/products/C2507.jpg",
+    "code": "C2507"
   },
   {
-    "title": "Laptop Dell Inspiron 15",
-    "brand": "Dell",
-    "condition": "Usado",
-    "category": "PCs",
-    "features": ["8GB RAM", "256GB SSD", "Windows 11"],
-    "image": "assets/products/dellinspiron15.jpg"
-  },
-  {
-    "title": "Pendrive Kingston 64GB",
-    "brand": "Kingston",
+    "title": "XIAOMI REDMI 15.",
+    "brand": "Xiaomi",
     "condition": "Nuevo",
-    "category": "Almacenamiento",
-    "features": ["USB 3.2", "Compacto", "Resistente"],
-    "image": "assets/products/kingston64gb.jpg"
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2495.jpg",
+    "code": "C2495"
   },
   {
-    "title": "Disco Duro Externo WD 2TB",
-    "brand": "Western Digital",
+    "title": "XIAOMI REDMI 15C.",
+    "brand": "Xiaomi",
     "condition": "Nuevo",
-    "category": "Almacenamiento",
-    "features": ["USB 3.0", "2TB", "Portátil"],
-    "image": "assets/products/wd2tb.jpg"
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C2473.jpg",
+    "code": "C2473"
   },
   {
-    "title": "Mouse Logitech G502",
-    "brand": "Logitech",
+    "title": "XIAOMI REDMI 15C.",
+    "brand": "Xiaomi",
     "condition": "Nuevo",
-    "category": "Accesorios",
-    "features": ["RGB", "11 botones", "Sensor HERO"],
-    "image": "assets/products/logitechg502.jpg"
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2483.jpg",
+    "code": "C2483"
   },
   {
-    "title": "Teclado Mecánico Redragon Kumara",
-    "brand": "Redragon",
+    "title": "XIAOMI REDMI A5.",
+    "brand": "Xiaomi",
     "condition": "Nuevo",
-    "category": "Accesorios",
-    "features": ["Switches Red", "Compacto", "Retroiluminado"],
-    "image": "assets/products/redragonkumara.jpg"
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C2011.jpg",
+    "code": "C2011"
+  },
+  {
+    "title": "XIAOMI REDMI NOTE 13 PRO +",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "512 GB ROM",
+      "12 GB RAM"
+    ],
+    "image": "assets/products/C948.jpg",
+    "code": "C948"
+  },
+  {
+    "title": "XIAOMI REDMI NOTE 14 PRO + 5G",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2031.jpg",
+    "code": "C2031"
+  },
+  {
+    "title": "XIAOMI REDMI NOTE 14 PRO + 5G",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "512 GB ROM",
+      "12 GB RAM"
+    ],
+    "image": "assets/products/C2371.jpg",
+    "code": "C2371"
+  },
+  {
+    "title": "XIAOMI REDMI NOTE 14 PRO",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "256 GB ROM",
+      "8 GB RAM"
+    ],
+    "image": "assets/products/C2429.jpg",
+    "code": "C2429"
+  },
+  {
+    "title": "XIAOMI REDMI PAD 2",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Teléfonos",
+    "features": [
+      "128 GB ROM",
+      "4 GB RAM"
+    ],
+    "image": "assets/products/C2465.jpg",
+    "code": "C2465"
   }
 ]
