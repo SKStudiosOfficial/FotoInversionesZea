@@ -1,5 +1,5 @@
 // =============================
-// Configuración
+ // Configuración
 // =============================
 const CONFIG = {
   whatsappNumber: '+584167602644', // <-- Reemplaza por tu número con código de país. Ej: +584141234567
