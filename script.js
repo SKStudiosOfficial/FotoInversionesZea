@@ -232,3 +232,137 @@ const io = new IntersectionObserver((entries) => {
 }, {threshold: .2});
 
 document.querySelectorAll('.service-card.reveal').forEach(el => io.observe(el));
+
+// =============================
+// Paginación
+// =============================
+let CURRENT_PAGE = 1;
+let LAST_FILTERED = []; // guardamos el último resultado filtrado para re-renderizar páginas
+const paginationNav = document.getElementById('pagination');
+
+function getPageSize(){
+  if (!grid) return 12;
+  // prioridad: data-page-size -> 12 por defecto
+  const ds = grid.dataset?.pageSize;
+  const n = parseInt(ds || '12', 10);
+  return Number.isFinite(n) && n > 0 ? n : 12;
+}
+function isPaginated(){
+  if (!grid) return false;
+  // si existe data-limit => lista recortada (home) => no paginar
+  if (grid.dataset && grid.dataset.limit) return false;
+  // si explícitamente pide paginar
+  return grid.dataset && grid.dataset.paginate === 'true';
+}
+
+function renderPagination(totalItems){
+  if (!paginationNav || !isPaginated()) return; 
+  const pageSize = getPageSize();
+  const totalPages = Math.max(1, Math.ceil(totalItems / pageSize));
+  // corrige página fuera de rango
+  if (CURRENT_PAGE > totalPages) CURRENT_PAGE = totalPages;
+  if (CURRENT_PAGE < 1) CURRENT_PAGE = 1;
+
+  // Construir controles
+  const makeBtn = (label, page, disabled=false, current=false) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'page-btn' + (current ? ' is-current' : '');
+    btn.textContent = label;
+    btn.disabled = !!disabled;
+    btn.setAttribute('aria-label', current ? `${label}, página actual` : `Ir a la página ${label}`);
+    btn.addEventListener('click', () => goToPage(page));
+    return btn;
+  };
+
+  // Limpiar y reconstruir
+  paginationNav.innerHTML = '';
+
+  // Prev
+  const prev = makeBtn('‹', CURRENT_PAGE - 1, CURRENT_PAGE === 1);
+  prev.setAttribute('aria-label', 'Página anterior');
+  paginationNav.appendChild(prev);
+
+  // Números con ventana dinámica (ej. 1 ... 4 5 [6] 7 8 ... 20)
+  const win = 2; // cantidad a los lados de la actual
+  const start = Math.max(1, CURRENT_PAGE - win);
+  const end   = Math.min(totalPages, CURRENT_PAGE + win);
+
+  // Primer página + elipsis
+  if (start > 1) {
+    paginationNav.appendChild(makeBtn('1', 1, false, CURRENT_PAGE === 1));
+    if (start > 2) {
+      const span = document.createElement('span');
+      span.className = 'page-ellipsis';
+      span.textContent = '…';
+      paginationNav.appendChild(span);
+    }
+  }
+  // Ventana central
+  for (let p = start; p <= end; p++) {
+    paginationNav.appendChild(makeBtn(String(p), p, false, p === CURRENT_PAGE));
+  }
+  // Última página + elipsis
+  if (end < totalPages) {
+    if (end < totalPages - 1) {
+      const span = document.createElement('span');
+      span.className = 'page-ellipsis';
+      span.textContent = '…';
+      paginationNav.appendChild(span);
+    }
+    paginationNav.appendChild(makeBtn(String(totalPages), totalPages, false, CURRENT_PAGE === totalPages));
+  }
+
+  // Next
+  const next = makeBtn('›', CURRENT_PAGE + 1, CURRENT_PAGE === totalPages);
+  next.setAttribute('aria-label', 'Página siguiente');
+  paginationNav.appendChild(next);
+
+  // Info de accesibilidad
+  paginationNav.setAttribute('role', 'navigation');
+}
+
+function goToPage(page){
+  CURRENT_PAGE = Math.max(1, page|0);
+  // re-render de la misma lista filtrada
+  renderProducts(LAST_FILTERED);
+  // scroll al inicio del grid para UX
+  grid?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// Hook a tu render: recorta la lista si está paginada
+const _renderProductsOriginal = renderProducts;
+renderProducts = function(list){
+  LAST_FILTERED = Array.isArray(list) ? list : [];
+  if (!grid) return _renderProductsOriginal(list);
+
+  // Si hay data-limit (home): no paginar, sólo recortar por limit
+  if (!isPaginated()) {
+    paginationNav && (paginationNav.innerHTML = ''); // ocultar controles si existen
+    return _renderProductsOriginal(list);
+  }
+
+  // Calcular ventana de elementos de la página actual
+  const pageSize = getPageSize();
+  const total = LAST_FILTERED.length;
+  const totalPages = Math.max(1, Math.ceil(total / pageSize));
+  if (CURRENT_PAGE > totalPages) CURRENT_PAGE = totalPages;
+
+  const startIdx = (CURRENT_PAGE - 1) * pageSize;
+  const endIdx = startIdx + pageSize;
+  const pageItems = LAST_FILTERED.slice(startIdx, endIdx);
+
+  // Renderizar sólo la página
+  _renderProductsOriginal(pageItems);
+
+  // Dibujar controles
+  renderPagination(total);
+};
+
+// Resetear a página 1 cada vez que cambian los filtros/búsqueda
+const _applyFiltersOriginal = applyFilters;
+applyFilters = function(){
+  CURRENT_PAGE = 1;
+  _applyFiltersOriginal();
+};
+
