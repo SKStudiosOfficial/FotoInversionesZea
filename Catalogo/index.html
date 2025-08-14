@@ -38,9 +38,19 @@
         <p>Todos los productos disponibles en tienda. Consulta precio y stock por WhatsApp.</p>
       </header>
 
-      <!-- filtros existentes en tu JS: searchInput, brandFilter, conditionFilter -->
+      <!-- Filtros: mismos IDs que en el home -->
       <div class="filters">
         <input id="searchInput" type="search" placeholder="Buscar por modelo o característica…" aria-label="Buscar" />
+
+        <select id="categoryFilter" aria-label="Filtrar por categoría">
+          <option value="">Todas las categorías</option>
+          <option value="Teléfonos">Teléfonos</option>
+          <option value="Televisores">Televisores</option>
+          <option value="PCs">PCs</option>
+          <option value="Almacenamiento">Almacenamiento</option>
+          <option value="Accesorios">Accesorios</option>
+        </select>
+
         <select id="brandFilter" aria-label="Filtrar por marca">
           <option value="">Todas las marcas</option>
           <option>Apple</option>
@@ -51,6 +61,7 @@
           <option>Realme</option>
           <option>Otros</option>
         </select>
+
         <select id="conditionFilter" aria-label="Filtrar por condición">
           <option value="">Todo</option>
           <option value="Nuevo">Nuevo</option>
