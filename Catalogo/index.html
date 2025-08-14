@@ -69,8 +69,11 @@
         </select>
       </div>
 
-      <!-- SIN data-limit: muestra todo -->
-      <div id="catalogGrid" class="catalog-grid" aria-live="polite"></div>
+      <!-- Catalogo con paginación -->
+      <div id="catalogGrid" class="catalog-grid" aria-live="polite" data-paginate="true" data-page-size="12"></div>
+
+      <!-- Controles de paginación -->
+      <nav id="pagination" class="pagination" aria-label="Paginación"></nav>
     </div>
   </main>
 
