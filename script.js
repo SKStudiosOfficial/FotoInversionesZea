@@ -82,9 +82,6 @@ function renderProducts(list){
     return;
   }
 
-  // Límite opcional (home usa data-limit="10"; en /Catalogo/ no se pone y muestra todo)
-  const limit = grid?.dataset?.limit ? parseInt(grid.dataset.limit, 10) : list.length;
-
   list.slice(0, limit).forEach((p, i) => {
     const card = document.createElement('article');
     card.className = 'product-card';
@@ -110,32 +107,91 @@ function renderProducts(list){
   });
 }
 
-// Filtros y búsqueda (tolerantes a que no existan en Home)
-const brandFilter = document.getElementById('brandFilter') || null;
+// -----------------------------
+// Filtros (con categoría primero)
+// -----------------------------
+const categoryFilter  = document.getElementById('categoryFilter') || null;
+const brandFilter     = document.getElementById('brandFilter') || null;
 const conditionFilter = document.getElementById('conditionFilter') || null;
-const searchInput = document.getElementById('searchInput') || null;
+const searchInput     = document.getElementById('searchInput') || null;
 
+// Poblar marcas según categoría actual
+function populateBrandOptions(products, currentCategory) {
+  if (!brandFilter) return;
+
+  const prev = brandFilter.value;
+  brandFilter.innerHTML = '<option value="">Todas las marcas</option>';
+
+  const byCat = currentCategory ? products.filter(p => p.category === currentCategory) : products;
+  const brands = Array.from(new Set(byCat.map(p => p.brand).filter(Boolean))).sort();
+
+  for (const b of brands) {
+    const opt = document.createElement('option');
+    opt.value = b;
+    opt.textContent = b;
+    brandFilter.appendChild(opt);
+  }
+
+  // Restaura selección si sigue válida
+  if ([...brandFilter.options].some(o => o.value === prev)) {
+    brandFilter.value = prev;
+  } else {
+    brandFilter.value = '';
+  }
+}
+
+// Aplicar filtros en orden: categoría → marca → condición → texto
 function applyFilters(){
+  const cat   = categoryFilter?.value.trim() || '';
   const brand = brandFilter?.value.trim() || '';
   const cond  = conditionFilter?.value.trim() || '';
   const q     = (searchInput?.value || '').trim().toLowerCase();
 
-  const result = PRODUCTS.filter(p => {
-    const text = (p.title + ' ' + (p.brand || '') + ' ' + (Array.isArray(p.features) ? p.features.join(' ') : '')).toLowerCase();
-    const brandOk = !brand || p.brand === brand;
-    const condOk  = !cond  || p.condition === cond;
-    const searchOk = !q || text.includes(q);
-    return brandOk && condOk && searchOk;
-  });
+  // 1) categoría
+  let result = PRODUCTS.filter(p => !cat || p.category === cat);
+
+  // 2) marcas dependientes de la categoría actual
+  populateBrandOptions(PRODUCTS, cat);
+
+  // 3) marca y condición
+  result = result.filter(p => (!brand || p.brand === brand) && (!cond || p.condition === cond));
+
+  // 4) búsqueda de texto
+  if (q) {
+    result = result.filter(p => {
+      const text = (p.title + ' ' + (p.brand || '') + ' ' + (Array.isArray(p.features) ? p.features.join(' ') : '')).toLowerCase();
+      return text.includes(q);
+    });
+  }
 
   renderProducts(result);
 }
 
-// Event listeners solo si existen los elementos
-[brandFilter, conditionFilter].filter(Boolean).forEach(el => el.addEventListener('change', applyFilters));
-if (searchInput) searchInput.addEventListener('input', applyFilters);
+// Deshabilitar marca si no hay categoría (opcional UX)
+function toggleBrandDisabled() {
+  if (!brandFilter) return;
+  const hasCat = !!(categoryFilter?.value.trim());
+  brandFilter.disabled = !hasCat; // desactiva si no hay categoría elegida
+}
 
+// Event listeners (solo si existen elementos)
+if (categoryFilter) {
+  categoryFilter.addEventListener('change', () => {
+    if (brandFilter) brandFilter.value = '';
+    if (conditionFilter) conditionFilter.value = '';
+    toggleBrandDisabled();
+    applyFilters();
+  });
+  // Inicializa estado de marca
+  document.addEventListener('DOMContentLoaded', toggleBrandDisabled);
+}
+if (brandFilter)      brandFilter.addEventListener('change', applyFilters);
+if (conditionFilter)  conditionFilter.addEventListener('change', applyFilters);
+if (searchInput)      searchInput.addEventListener('input', applyFilters);
+
+// -----------------------------
 // Cargar productos desde products.json
+// -----------------------------
 async function loadProducts() {
   // Ruta relativa correcta según página actual
   const url = location.pathname.toLowerCase().includes('/catalogo')
@@ -145,8 +201,10 @@ async function loadProducts() {
   try {
     const res = await fetch(url, { cache: 'no-store' });
     PRODUCTS = await res.json();
-    // Si hay filtros en esta vista, respeta su estado; si no, render directo
-    if (brandFilter || conditionFilter || searchInput) {
+
+    // Prepara marcas según categoría actual y aplica filtros/render
+    populateBrandOptions(PRODUCTS, categoryFilter?.value || '');
+    if (categoryFilter || brandFilter || conditionFilter || searchInput) {
       applyFilters();
     } else {
       renderProducts(PRODUCTS);
