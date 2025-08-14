@@ -3,7 +3,7 @@
 // =============================
 const CONFIG = {
   whatsappNumber: '+584167602644', // <-- Reemplaza por tu número con código de país. Ej: +584141234567
-  whatsappTextGeneral: 'Hola, me interesa su catálogo de teléfonos.',
+  whatsappTextGeneral: 'Hola, me interesa su catálogo.',
 };
 
 // Utilidad: construir link de WhatsApp
@@ -13,17 +13,16 @@ function buildWhatsAppLink(text) {
   return `https://wa.me/${phone}?text=${urlText}`;
 }
 
-// Inyectar enlaces WhatsApp
-function setWhatsAppLinks() {
+// Inyectar enlaces WhatsApp + año footer (cuando el DOM está listo)
+document.addEventListener('DOMContentLoaded', () => {
   const links = ['whatsappHero','whatsappTop','whatsappBottom','whatsappCTA']
     .map(id => document.getElementById(id))
     .filter(Boolean);
   links.forEach(a => a.href = buildWhatsAppLink(CONFIG.whatsappTextGeneral));
-}
-setWhatsAppLinks();
 
-// Año en footer
-document.getElementById('year').textContent = new Date().getFullYear();
+  const y = document.getElementById('year');
+  if (y) y.textContent = new Date().getFullYear();
+});
 
 // =============================
 // Menú hamburguesa / Drawer
@@ -34,84 +33,37 @@ const closeBtn = document.getElementById('drawer-close');
 const backdrop = document.getElementById('backdrop');
 
 function openDrawer(){
+  if(!drawer) return;
   drawer.classList.add('open');
-  backdrop.classList.add('visible');
-  hamburger.classList.add('active');
+  if(backdrop) backdrop.classList.add('visible');
+  if(hamburger) hamburger.classList.add('active');
   drawer.setAttribute('aria-hidden','false');
-  hamburger.setAttribute('aria-expanded','true');
-  document.body.classList.add('body-lock');   // <-- añade esto
+  if(hamburger) hamburger.setAttribute('aria-expanded','true');
+  document.body.classList.add('body-lock');
 }
 
 function closeDrawer(){
+  if(!drawer) return;
   drawer.classList.remove('open');
-  backdrop.classList.remove('visible');
-  hamburger.classList.remove('active');
+  if(backdrop) backdrop.classList.remove('visible');
+  if(hamburger) hamburger.classList.remove('active');
   drawer.setAttribute('aria-hidden','true');
-  hamburger.setAttribute('aria-expanded','false');
-  document.body.classList.remove('body-lock'); // <-- y esto
+  if(hamburger) hamburger.setAttribute('aria-expanded','false');
+  document.body.classList.remove('body-lock');
 }
 
-hamburger.addEventListener('click', () => {
-  const isOpen = drawer.classList.contains('open');
+if (hamburger) hamburger.addEventListener('click', () => {
+  const isOpen = drawer?.classList.contains('open');
   isOpen ? closeDrawer() : openDrawer();
 });
-closeBtn.addEventListener('click', closeDrawer);
-backdrop.addEventListener('click', closeDrawer);
-drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', closeDrawer));
+if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+if (backdrop) backdrop.addEventListener('click', closeDrawer);
+if (drawer) drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', closeDrawer));
 
 // =============================
-// Catálogo (datos demo)
+// Catálogo (desde JSON)
 // =============================
-const PRODUCTS = [
-  {
-    id: 'ip13',
-    title: 'iPhone 13 128GB',
-    brand: 'Apple',
-    condition: 'Reacondicionado',
-    features: ['6.1" OLED', 'A15 Bionic', 'Cámara 12MP'],
-    image: null,
-  },
-  {
-    id: 's24',
-    title: 'Samsung Galaxy S24 256GB',
-    brand: 'Samsung',
-    condition: 'Nuevo',
-    features: ['6.2" AMOLED 120Hz', 'Snapdragon 8 Gen 3', 'Cámara 50MP'],
-    image: null,
-  },
-  {
-    id: 'motoG54',
-    title: 'Motorola Moto G54 8GB/128GB',
-    brand: 'Motorola',
-    condition: 'Nuevo',
-    features: ['6.5" 120Hz', 'Dimensity 7020', 'Batería 5000mAh'],
-    image: null,
-  },
-  {
-    id: 'redmi12',
-    title: 'Xiaomi Redmi 12 256GB',
-    brand: 'Xiaomi',
-    condition: 'Nuevo',
-    features: ['6.79" 90Hz', 'Cámara 50MP', 'Batería 5000mAh'],
-    image: null,
-  },
-  {
-    id: 'p30',
-    title: 'Huawei P30 128GB',
-    brand: 'Huawei',
-    condition: 'Reacondicionado',
-    features: ['6.1" OLED', 'Leica Triple Cam', 'Kirin 980'],
-    image: null,
-  },
-  {
-    id: 'realme11',
-    title: 'Realme 11 Pro+ 256GB',
-    brand: 'Realme',
-    condition: 'Nuevo',
-    features: ['Pantalla curva', 'Cámara 200MP', 'Carga rápida'],
-    image: null,
-  },
-];
+let PRODUCTS = [];
 
 // SVG placeholder para productos sin imagen
 const PHONE_SVG = `<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -121,64 +73,91 @@ const PHONE_SVG = `<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"
 </svg>`;
 
 // Render catálogo
-// Render catálogo
 const grid = document.getElementById('catalogGrid');
 function renderProducts(list){
+  if(!grid) return;
   grid.innerHTML = '';
   if(!list.length){
     grid.innerHTML = '<p>No se encontraron resultados.</p>';
     return;
   }
 
-  // NUEVO: tomar el límite del data-attribute si existe
+  // Límite opcional (home usa data-limit="10"; en /Catalogo/ no se pone y muestra todo)
   const limit = grid?.dataset?.limit ? parseInt(grid.dataset.limit, 10) : list.length;
 
   list.slice(0, limit).forEach((p, i) => {
     const card = document.createElement('article');
     card.className = 'product-card';
     card.style.animationDelay = (i * 60) + 'ms';
+    const features = Array.isArray(p.features) ? p.features : [];
     card.innerHTML = `
-      <div class="product-media">${p.image ? `<img src="${p.image}" alt="${p.title}">` : PHONE_SVG}</div>
+      <div class="product-media">
+        ${p.image ? `<img src="${p.image}" alt="${p.title}">` : PHONE_SVG}
+      </div>
       <div class="product-body">
         <h3 class="product-title">${p.title}</h3>
-        <p class="product-meta">${p.brand} • ${p.condition}</p>
+        <p class="product-meta">${p.brand || '—'} • ${p.condition || '—'}</p>
         <div class="badges">
-          ${p.features.map(f => `<span class="badge-chip">${f}</span>`).join('')}
+          ${features.map(f => `<span class="badge-chip">${f}</span>`).join('')}
         </div>
         <div class="card-actions">
           <a class="btn btn-primary" href="#contacto">Ver en tienda</a>
           <a class="btn btn-whatsapp" target="_blank" rel="noopener"
-             href="${buildWhatsAppLink(`Hola, me interesa el ${p.title} (${p.brand}, ${p.condition}). ¿Está disponible?`)}">Consultar</a>
+             href="${buildWhatsAppLink(`Hola, me interesa el ${p.title} (${p.brand || ''}, ${p.condition || ''}). ¿Está disponible?`)}">Consultar</a>
         </div>
       </div>`;
     grid.appendChild(card);
   });
 }
-renderProducts(PRODUCTS);
 
-
-// Filtros y búsqueda
-const brandFilter = document.getElementById('brandFilter');
-const conditionFilter = document.getElementById('conditionFilter');
-const searchInput = document.getElementById('searchInput');
+// Filtros y búsqueda (tolerantes a que no existan en Home)
+const brandFilter = document.getElementById('brandFilter') || null;
+const conditionFilter = document.getElementById('conditionFilter') || null;
+const searchInput = document.getElementById('searchInput') || null;
 
 function applyFilters(){
-  const brand = brandFilter.value.trim();
-  const cond = conditionFilter.value.trim();
-  const q = searchInput.value.trim().toLowerCase();
+  const brand = brandFilter?.value.trim() || '';
+  const cond  = conditionFilter?.value.trim() || '';
+  const q     = (searchInput?.value || '').trim().toLowerCase();
 
   const result = PRODUCTS.filter(p => {
+    const text = (p.title + ' ' + (p.brand || '') + ' ' + (Array.isArray(p.features) ? p.features.join(' ') : '')).toLowerCase();
     const brandOk = !brand || p.brand === brand;
-    const condOk = !cond || p.condition === cond;
-    const text = (p.title + ' ' + p.brand + ' ' + p.features.join(' ')).toLowerCase();
+    const condOk  = !cond  || p.condition === cond;
     const searchOk = !q || text.includes(q);
     return brandOk && condOk && searchOk;
   });
+
   renderProducts(result);
 }
 
-[brandFilter, conditionFilter].forEach(el => el.addEventListener('change', applyFilters));
-searchInput.addEventListener('input', applyFilters);
+// Event listeners solo si existen los elementos
+[brandFilter, conditionFilter].filter(Boolean).forEach(el => el.addEventListener('change', applyFilters));
+if (searchInput) searchInput.addEventListener('input', applyFilters);
+
+// Cargar productos desde products.json
+async function loadProducts() {
+  // Ruta relativa correcta según página actual
+  const url = location.pathname.toLowerCase().includes('/catalogo')
+    ? '../products.json'
+    : 'products.json';
+
+  try {
+    const res = await fetch(url, { cache: 'no-store' });
+    PRODUCTS = await res.json();
+    // Si hay filtros en esta vista, respeta su estado; si no, render directo
+    if (brandFilter || conditionFilter || searchInput) {
+      applyFilters();
+    } else {
+      renderProducts(PRODUCTS);
+    }
+  } catch (err) {
+    console.error('Error cargando products.json', err);
+    renderProducts([]); // mostrará "No se encontraron resultados."
+  }
+}
+
+document.addEventListener('DOMContentLoaded', loadProducts);
 
 // =============================
 // Scroll reveal (IntersectionObserver)
