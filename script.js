@@ -138,13 +138,13 @@ function renderProducts(list){
     const features = Array.isArray(p.features) ? p.features : [];
     card.innerHTML = `
       <div class="product-media">
-        ${p.image ? `<img src="${p.image}" alt="${p.title}">` : PHONE_SVG}
+        ${p.image ? `<img src="${resolveAsset(p.image)}" alt="${p.title}">` : PHONE_SVG}
       </div>
       <div class="product-body">
         <h3 class="product-title">${p.title}</h3>
         <p class="product-meta">${p.brand || '—'} • ${p.condition || '—'}</p>
         <div class="badges">
-          ${features.map(f => `<span class="badge-chip">${f}</span>`).join('')}
+          ${(Array.isArray(p.features) ? p.features : []).map(f => `<span class="badge-chip">${f}</span>`).join('')}
         </div>
         <div class="card-actions">
           <a class="btn btn-primary" href="#contacto">Ver en tienda</a>
@@ -152,8 +152,10 @@ function renderProducts(list){
              href="${buildWhatsAppLink(
                `Hola, me interesa el ${p.title} (${p.brand || ''}, ${p.condition || ''}, código: ${p.code || '—'}). ¿Está disponible?`
              )}">Consultar</a>
+        </div>
+      </div>
+    `;
 
-      </div>`;
     grid.appendChild(card);
   });
 }
