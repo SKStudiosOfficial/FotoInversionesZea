@@ -151,7 +151,7 @@ function renderProducts(list){
           <a class="btn btn-whatsapp" target="_blank" rel="noopener"
              href="${buildWhatsAppLink(
                `Hola, me interesa el ${p.title} (${p.brand || ''}, ${p.condition || ''}, código: ${p.code || '—'}). ¿Está disponible?`
-             )}">Chatear por WhatsApp</a>
+             )}">Enviar WhatsApp</a>
         </div>
       </div>
     `;
