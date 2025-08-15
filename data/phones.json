@@ -168,7 +168,7 @@
     "code": "C2279"
   },
   {
-    "title": "INFINIX HOT 60I.",
+    "title": "INFINIX HOT 60I",
     "brand": "Infinix",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -180,7 +180,7 @@
     "code": "C2282"
   },
   {
-    "title": "INFINIX HOT 60I.",
+    "title": "INFINIX HOT 60I",
     "brand": "Infinix",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -216,19 +216,7 @@
     "code": "C2203"
   },
   {
-    "title": "INFINIX NOTE 50 PRO.",
-    "brand": "Infinix",
-    "condition": "Nuevo",
-    "category": "Teléfonos",
-    "features": [
-      "256 GB ROM",
-      "8 GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C2479_INFINIX_NOTE_50_PRO.webp",
-    "code": "C2479"
-  },
-  {
-    "title": "INFINIX SMART 10.",
+    "title": "INFINIX SMART 10",
     "brand": "Infinix",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -240,7 +228,7 @@
     "code": "C2109"
   },
   {
-    "title": "INFINIX SMART 10.",
+    "title": "INFINIX SMART 10",
     "brand": "Infinix",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -1044,5 +1032,6 @@
     "code": "C2465"
   }
 ]
+
 
 
