@@ -443,10 +443,10 @@ img, svg{ max-width:100%; height:auto; display:block; }
   pointer-events: none;
   /* halo blanco que se desvanece: el centro es más claro y se va volviendo transparente */
   background: radial-gradient(ellipse at center,
-              rgba(255,255,255,.40) 0%,
-              rgba(255,255,255,.22) 35%,
-              rgba(255,255,255,.10) 55%,
-              rgba(255,255,255,0) 75%);
+              rgba(255,255,255,.40) 5%,
+              rgba(255,255,255,.22) 30%,
+              rgba(255,255,255,.10) 75%,
+              rgba(255,255,255,0) 100%);
   filter: blur(8px);   /* suaviza el borde del glow */
   z-index: 0;          /* detrás de la imagen */
 }
