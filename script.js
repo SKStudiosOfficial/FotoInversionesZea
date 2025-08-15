@@ -6,6 +6,43 @@ const CONFIG = {
   whatsappTextGeneral: 'Hola, me interesa su catálogo.',
 };
 
+// === Catálogos por categoría (rutas relativas al root del sitio) ===
+const CATALOG_SOURCES = {
+  'Teléfonos': 'data/phones.json',
+  'Routers':   'data/routers.json',
+  'Hogar':     'data/hogar.json',
+  'Varios':    'data/varios.json',
+};
+
+// Caché para no refetchear
+const catalogCache = {};
+
+// Dado el path actual, resuelve prefijo correcto (home vs /Catalogo/)
+function basePrefix() {
+  return location.pathname.toLowerCase().includes('/catalogo') ? '../' : '';
+}
+
+// Carga (o recupera de caché) el dataset para la categoría activa
+async function ensureCatalogFor(category) {
+  if (!category || !CATALOG_SOURCES[category]) {
+    PRODUCTS = [];
+    renderProducts([]);
+    return;
+  }
+  const url = basePrefix() + CATALOG_SOURCES[category];
+  if (catalogCache[url]) {
+    PRODUCTS = catalogCache[url];
+    applyFilters();
+    return;
+  }
+  const res = await fetch(url, { cache: 'no-store' });
+  const data = await res.json();
+  catalogCache[url] = data;
+  PRODUCTS = data;
+  applyFilters();
+}
+
+
 // Utilidad: construir link de WhatsApp
 function buildWhatsAppLink(text) {
   const phone = CONFIG.whatsappNumber.replace(/[^+0-9]/g, '');
@@ -180,48 +217,28 @@ function toggleBrandDisabled() {
 
 // Event listeners (solo si existen elementos)
 if (categoryFilter) {
-  categoryFilter.addEventListener('change', () => {
+  categoryFilter.addEventListener('change', async () => {
     if (brandFilter) brandFilter.value = '';
     if (conditionFilter) conditionFilter.value = '';
     toggleBrandDisabled();
-    applyFilters();
+    await ensureCatalogFor(categoryFilter.value);
   });
-  // Inicializa estado de marca
   document.addEventListener('DOMContentLoaded', toggleBrandDisabled);
 }
+
 if (brandFilter)      brandFilter.addEventListener('change', applyFilters);
 if (conditionFilter)  conditionFilter.addEventListener('change', applyFilters);
 if (searchInput)      searchInput.addEventListener('input', applyFilters);
 
-// -----------------------------
-// Cargar productos desde products.json
-// -----------------------------
-async function loadProducts() {
-  // Ruta relativa correcta según página actual
-  const url = location.pathname.toLowerCase().includes('/catalogo')
-    ? '../products.json'
-    : 'products.json';
-
-  try {
-    const res = await fetch(url, { cache: 'no-store' });
-    PRODUCTS = await res.json();
-
-    // Prepara marcas según categoría actual y aplica filtros/render
-    populateBrandOptions(PRODUCTS, categoryFilter?.value || '');
-    if (categoryFilter || brandFilter || conditionFilter || searchInput) {
-      applyFilters();
-    } else {
-      renderProducts(PRODUCTS);
-    }
-  } catch (err) {
-    console.error('Error cargando products.json', err);
-    renderProducts([]); // mostrará "No se encontraron resultados."
+document.addEventListener('DOMContentLoaded', async () => {
+  // Elige una categoría por defecto (o deja vacío para forzar selección)
+  if (categoryFilter && !categoryFilter.value) {
+    categoryFilter.value = 'Teléfonos'; // cámbiala si prefieres otra por defecto
   }
-}
+  toggleBrandDisabled();
+  await ensureCatalogFor(categoryFilter ? categoryFilter.value : 'Teléfonos');
+});
 
-document.addEventListener('DOMContentLoaded', loadProducts);
-
-// =============================
 // Scroll reveal (IntersectionObserver)
 // =============================
 const io = new IntersectionObserver((entries) => {
