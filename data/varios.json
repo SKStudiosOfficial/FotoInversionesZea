@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Mochila Antirrobo",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Puerto USB", "Impermeable", "15 pulgadas"],
+    "image": "assets/products/mochila-xiaomi.jpg",
+    "code": "MOCHXIA15"
+  },
+  {
+    "title": "Parlante Bluetooth Portátil",
+    "brand": "Sony",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Resistente al agua", "12 horas de batería", "Bluetooth 5.0"],
+    "image": "assets/products/sony-bt-portatil.jpg",
+    "code": "SONYBT12H"
+  }
+]
