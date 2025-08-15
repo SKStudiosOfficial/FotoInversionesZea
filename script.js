@@ -10,6 +10,7 @@ const CONFIG = {
 const CATALOG_SOURCES = {
   'Teléfonos': 'data/phones.json',
   'Routers':   'data/routers.json',
+  'Computadoras':   'data/pcs.json',
   'Hogar':     'data/hogar.json',
   'Varios':    'data/varios.json',
 };
