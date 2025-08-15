@@ -410,3 +410,24 @@ img, svg{ max-width:100%; height:auto; display:block; }
 }
 .page-ellipsis{ opacity:.6; padding:0 4px; }
 
+/* === Marco visible y elegante alrededor de la imagen === */
+.product-media{
+  aspect-ratio: 4/3;
+  background: transparent;       /* el contenedor ya no pinta nada */
+  display: grid; place-items: center;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 0;                    /* quitamos padding aquí */
+}
+
+.product-media img{
+  background: #fff;              /* tapete blanco */
+  padding: 10px;                 /* crea el “marco” */
+  border-radius: 12px;           /* esquinas suaves del marco */
+  border: 1px solid rgba(0,0,0,.12);   /* línea sutil para separar */
+  box-shadow: 0 4px 18px rgba(0,0,0,.25); /* sombra para que “flote” */
+  max-width: 92%;
+  max-height: 92%;
+  object-fit: contain;
+}
+
