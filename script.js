@@ -153,7 +153,7 @@ function renderProducts(list){
              href="${buildWhatsAppLink(
                `Hola, me interesa el ${p.title} (${p.brand || ''}, ${p.condition || ''}, código: ${p.code || '—'}). ¿Está disponible?`
              )}">
-             <img src="${basePrefix()}assets/whatsapp.svg" alt="WhatsApp" style="width:20px; height:20px;">
+             <img src="${basePrefix()}assets/whatsapp.webp" alt="WhatsApp" style="width:20px; height:20px;">
           </a>
         </div>
       </div>
