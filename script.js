@@ -17,6 +17,16 @@ const CATALOG_SOURCES = {
 // Caché para no refetchear
 const catalogCache = {};
 
+function resolveAsset(url) {
+  // Si ya es absoluta (http/https), root (/...) o ../, no toques
+  if (/^(https?:)?\/\//i.test(url) || url.startsWith('/') || url.startsWith('../')) {
+    return url;
+  }
+  // Si es relativa tipo "assets/...", prefija según si estás en /Catalogo/
+  return basePrefix() + url;
+}
+
+
 // Dado el path actual, resuelve prefijo correcto (home vs /Catalogo/)
 function basePrefix() {
   return location.pathname.toLowerCase().includes('/catalogo') ? '../' : '';
