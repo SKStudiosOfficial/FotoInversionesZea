@@ -264,28 +264,16 @@
     "code": "C2516"
   },
   {
-    "title": "IPHONE 13.",
+    "title": "IPHONE 13",
     "brand": "Iphone",
     "condition": "Nuevo",
     "category": "Teléfonos",
     "features": [
-      "GB RAM",
-      "128 GB ROM"
+      "6GB RAM",
+      "128GB ROM"
     ],
     "image": "assets/products/Telefonos/C2596_IPHONE_13.webp",
     "code": "C2596"
-  },
-  {
-    "title": "IPHONE 13.",
-    "brand": "Iphone",
-    "condition": "Nuevo",
-    "category": "Teléfonos",
-    "features": [
-      "GB ROM",
-      "GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C2457_IPHONE_13.webp",
-    "code": "C2457"
   },
   {
     "title": "IPHONE 14 PRO MAX",
@@ -336,7 +324,7 @@
     "code": "C2458"
   },
   {
-    "title": "ITEL A50.",
+    "title": "ITEL A50",
     "brand": "Itel",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -348,19 +336,7 @@
     "code": "C2242"
   },
   {
-    "title": "ITEL A50.",
-    "brand": "Itel",
-    "condition": "Nuevo",
-    "category": "Teléfonos",
-    "features": [
-      "64 GB ROM",
-      "3 GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C1755_ITEL_A50.webp",
-    "code": "C1755"
-  },
-  {
-    "title": "ITEL A80.",
+    "title": "ITEL A80",
     "brand": "Itel",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -372,7 +348,7 @@
     "code": "C1948"
   },
   {
-    "title": "ITEL A90.",
+    "title": "ITEL A90",
     "brand": "Itel",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -384,7 +360,7 @@
     "code": "C2235"
   },
   {
-    "title": "ITEL A90.",
+    "title": "ITEL A90",
     "brand": "Itel",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -408,30 +384,6 @@
     "code": "C2215"
   },
   {
-    "title": "KOLOR 220 5G",
-    "brand": "Kolor",
-    "condition": "Nuevo",
-    "category": "Teléfonos",
-    "features": [
-      "GB ROM",
-      "GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C2251_KOLOR_220_5G.webp",
-    "code": "C2251"
-  },
-  {
-    "title": "OLAX 4G+",
-    "brand": "Olax",
-    "condition": "Nuevo",
-    "category": "Teléfonos",
-    "features": [
-      "GB ROM",
-      "GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C2397_OLAX_4G.webp",
-    "code": "C2397"
-  },
-  {
     "title": "PANITA PRO 4G",
     "brand": "Panita",
     "condition": "Nuevo",
@@ -442,18 +394,6 @@
     ],
     "image": "assets/products/Telefonos/C2137_PANITA_PRO_4G.webp",
     "code": "C2137"
-  },
-  {
-    "title": "PANITA PRO 4G",
-    "brand": "Panita",
-    "condition": "Nuevo",
-    "category": "Teléfonos",
-    "features": [
-      "GB ROM",
-      "GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C2308_PANITA_PRO_4G.webp",
-    "code": "C2308"
   },
   {
     "title": "PANITA",
@@ -492,18 +432,6 @@
     "code": "C1698"
   },
   {
-    "title": "REDMI A3X.",
-    "brand": "Redmi",
-    "condition": "Nuevo",
-    "category": "Teléfonos",
-    "features": [
-      "128 GB ROM",
-      "4 GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C1412_REDMI_A3X.webp",
-    "code": "C1412"
-  },
-  {
     "title": "REDMI NOTE 14 PRO + 5G",
     "brand": "Redmi",
     "condition": "Nuevo",
@@ -516,7 +444,7 @@
     "code": "C1684"
   },
   {
-    "title": "REDMI NOTE 14.",
+    "title": "REDMI NOTE 14",
     "brand": "Redmi",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -528,7 +456,7 @@
     "code": "C1100"
   },
   {
-    "title": "REDMI NOTE 14.",
+    "title": "REDMI NOTE 14",
     "brand": "Redmi",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -552,7 +480,7 @@
     "code": "C1399"
   },
   {
-    "title": "SAMSUNG A05.",
+    "title": "SAMSUNG A05",
     "brand": "Samsung",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -564,7 +492,7 @@
     "code": "C1940"
   },
   {
-    "title": "SAMSUNG A06.",
+    "title": "SAMSUNG A06",
     "brand": "Samsung",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -576,7 +504,7 @@
     "code": "C2517"
   },
   {
-    "title": "SAMSUNG A06.",
+    "title": "SAMSUNG A06",
     "brand": "Samsung",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -588,7 +516,7 @@
     "code": "C1324"
   },
   {
-    "title": "SAMSUNG A16.",
+    "title": "SAMSUNG A16",
     "brand": "Samsung",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -600,7 +528,7 @@
     "code": "C2539"
   },
   {
-    "title": "SAMSUNG A16.",
+    "title": "SAMSUNG A16",
     "brand": "Samsung",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -608,11 +536,11 @@
       "128 GB ROM",
       "6 GB RAM"
     ],
-    "image": "assets/products/Telefonos/C2580_SAMSUNG_A16.webp",
+    "image": "assets/products/Telefonos/C2539_SAMSUNG_A16.webp",
     "code": "C2580"
   },
   {
-    "title": "SAMSUNG A16.",
+    "title": "SAMSUNG A16",
     "brand": "Samsung",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -620,7 +548,7 @@
       "256 GB ROM",
       "8 GB RAM"
     ],
-    "image": "assets/products/Telefonos/C2092_SAMSUNG_A16.webp",
+    "image": "assets/products/Telefonos/C2539_SAMSUNG_A16.webp",
     "code": "C2092"
   },
   {
@@ -636,7 +564,7 @@
     "code": "C2370"
   },
   {
-    "title": "SAMSUNG A26.",
+    "title": "SAMSUNG A26",
     "brand": "Samsung",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -696,43 +624,19 @@
     "code": "C2124"
   },
   {
-    "title": "TABLET TIGER 7\" TG 748",
-    "brand": "Tablet",
-    "condition": "Nuevo",
-    "category": "Teléfonos",
-    "features": [
-      "32 GB ROM",
-      "2 GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C1898_TABLET_TIGER_7_TG_748.webp",
-    "code": "C1898"
-  },
-  {
     "title": "TABLET TIGER TG 748",
     "brand": "Tablet",
     "condition": "Nuevo",
     "category": "Teléfonos",
     "features": [
-      "GB ROM",
-      "GB RAM"
+      "32 GB ROM",
+      "2 GB RAM"
     ],
     "image": "assets/products/Telefonos/C638_TABLET_TIGER_TG_748.webp",
     "code": "C638"
   },
   {
-    "title": "TABLET TIGER TG-748.",
-    "brand": "Tablet",
-    "condition": "Nuevo",
-    "category": "Teléfonos",
-    "features": [
-      "32 GB ROM",
-      "2 GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C1895_TABLET_TIGER_TG748.webp",
-    "code": "C1895"
-  },
-  {
-    "title": "TCL L5.",
+    "title": "TCL L5",
     "brand": "Tcl",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -756,7 +660,7 @@
     "code": "C1952"
   },
   {
-    "title": "TECNO GO1",
+    "title": "TECNO SPARK GO 1",
     "brand": "Tecno",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -768,7 +672,7 @@
     "code": "C1900"
   },
   {
-    "title": "TECNO POVA 6.",
+    "title": "TECNO POVA 6",
     "brand": "Tecno",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -828,7 +732,7 @@
     "code": "C2501"
   },
   {
-    "title": "TECNO SPARK GO 1S.",
+    "title": "TECNO SPARK GO 1S",
     "brand": "Tecno",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -840,7 +744,7 @@
     "code": "C1154"
   },
   {
-    "title": "TECNO SPARK GO 2.",
+    "title": "TECNO SPARK GO 2",
     "brand": "Tecno",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -852,7 +756,7 @@
     "code": "C2489"
   },
   {
-    "title": "TECNO SPARK GO 2.",
+    "title": "TECNO SPARK GO 2",
     "brand": "Tecno",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -860,7 +764,7 @@
       "64 GB ROM",
       "3 GB RAM"
     ],
-    "image": "assets/products/Telefonos/C2129_TECNO_SPARK_GO_2.webp",
+    "image": "assets/products/Telefonos/C2489_TECNO_SPARK_GO_2.webp",
     "code": "C2129"
   },
   {
@@ -884,35 +788,11 @@
       "256 GB ROM",
       "8 GB RAM"
     ],
-    "image": "assets/products/Telefonos/C2435_XIAOMI_REDMI_14C.webp",
+    "image": "assets/products/Telefonos/C2224_XIAOMI_REDMI_14C.webp",
     "code": "C2435"
   },
   {
-    "title": "XIAOMI REDMI 14C.",
-    "brand": "Xiaomi",
-    "condition": "Nuevo",
-    "category": "Teléfonos",
-    "features": [
-      "128 GB ROM",
-      "4 GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C2425_XIAOMI_REDMI_14C.webp",
-    "code": "C2425"
-  },
-  {
-    "title": "XIAOMI REDMI 14C.",
-    "brand": "Xiaomi",
-    "condition": "Nuevo",
-    "category": "Teléfonos",
-    "features": [
-      "256 GB ROM",
-      "8 GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C2570_XIAOMI_REDMI_14C.webp",
-    "code": "C2570"
-  },
-  {
-    "title": "XIAOMI REDMI 15.",
+    "title": "XIAOMI REDMI 15",
     "brand": "Xiaomi",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -924,7 +804,7 @@
     "code": "C2507"
   },
   {
-    "title": "XIAOMI REDMI 15.",
+    "title": "XIAOMI REDMI 15",
     "brand": "Xiaomi",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -932,11 +812,11 @@
       "256 GB ROM",
       "8 GB RAM"
     ],
-    "image": "assets/products/Telefonos/C2495_XIAOMI_REDMI_15.webp",
+    "image": "assets/products/Telefonos/C2507_XIAOMI_REDMI_15.webp",
     "code": "C2495"
   },
   {
-    "title": "XIAOMI REDMI 15C.",
+    "title": "XIAOMI REDMI 15C",
     "brand": "Xiaomi",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -944,23 +824,11 @@
       "128 GB ROM",
       "4 GB RAM"
     ],
-    "image": "assets/products/Telefonos/C2473_XIAOMI_REDMI_15C.webp",
+    "image": "assets/products/Telefonos/C2507_XIAOMI_REDMI_15C.webp",
     "code": "C2473"
   },
   {
-    "title": "XIAOMI REDMI 15C.",
-    "brand": "Xiaomi",
-    "condition": "Nuevo",
-    "category": "Teléfonos",
-    "features": [
-      "256 GB ROM",
-      "8 GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C2483_XIAOMI_REDMI_15C.webp",
-    "code": "C2483"
-  },
-  {
-    "title": "XIAOMI REDMI A5.",
+    "title": "XIAOMI REDMI A5",
     "brand": "Xiaomi",
     "condition": "Nuevo",
     "category": "Teléfonos",
@@ -1032,6 +900,7 @@
     "code": "C2465"
   }
 ]
+
 
 
 
