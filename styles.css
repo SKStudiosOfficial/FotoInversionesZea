@@ -410,24 +410,64 @@ img, svg{ max-width:100%; height:auto; display:block; }
 }
 .page-ellipsis{ opacity:.6; padding:0 4px; }
 
-/* === Marco visible y elegante alrededor de la imagen === */
+/* === Marco blanco del tamaño de la imagen + desvanecido al fondo === */
 .product-media{
-  aspect-ratio: 4/3;
-  background: transparent;       /* el contenedor ya no pinta nada */
-  display: grid; place-items: center;
+  /* recuperamos el fondo arcoíris original del contenedor */
+  background: linear-gradient(135deg, rgba(0,230,118,.18), rgba(255,77,79,.18));
+  display: grid;
+  place-items: center;
   border-radius: 12px;
   overflow: hidden;
-  padding: 0;                    /* quitamos padding aquí */
+  position: relative; /* para el pseudo-elemento de glow */
+  padding: 0;         /* sin padding aquí, el marco va en la IMG */
+  aspect-ratio: 4/3;
 }
 
+/* “Placa” blanca que sigue el tamaño de la imagen */
 .product-media img{
-  background: #fff;              /* tapete blanco */
-  padding: 10px;                 /* crea el “marco” */
-  border-radius: 12px;           /* esquinas suaves del marco */
-  border: 1px solid rgba(0,0,0,.12);   /* línea sutil para separar */
-  box-shadow: 0 4px 18px rgba(0,0,0,.25); /* sombra para que “flote” */
+  background: #fff;          /* placa blanca detrás de la foto */
+  padding: 10px;             /* marco visible */
+  border-radius: 14px;       /* esquinas suaves */
+  border: 1px solid rgba(0,0,0,.12);
+  box-shadow: 0 6px 18px rgba(0,0,0,.25);  /* separación del fondo */
   max-width: 92%;
   max-height: 92%;
   object-fit: contain;
 }
 
+/* Glow/desvanecido suave alrededor de la placa para mezclar con el fondo */
+.product-media::after{
+  content:"";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  /* halo blanco que se desvanece: el centro es más claro y se va volviendo transparente */
+  background: radial-gradient(ellipse at center,
+              rgba(255,255,255,.40) 0%,
+              rgba(255,255,255,.22) 35%,
+              rgba(255,255,255,.10) 55%,
+              rgba(255,255,255,0) 75%);
+  filter: blur(8px);   /* suaviza el borde del glow */
+  z-index: 0;          /* detrás de la imagen */
+}
+
+/* La imagen queda por encima del glow */
+.product-media img{ position: relative; z-index: 1; }
+
+/* Ajustes responsive: en móvil el marco queda un poco más pequeño para verse mejor */
+@media (max-width: 520px){
+  .product-media img{
+    max-width: 88%;
+    padding: 8px;           /* marco un pelín más fino */
+    border-radius: 12px;
+    box-shadow: 0 5px 14px rgba(0,0,0,.22);
+  }
+  .product-media::after{
+    filter: blur(10px);
+    background: radial-gradient(ellipse at center,
+                rgba(255,255,255,.36) 0%,
+                rgba(255,255,255,.18) 38%,
+                rgba(255,255,255,.08) 58%,
+                rgba(255,255,255,0) 78%);
+  }
+}
