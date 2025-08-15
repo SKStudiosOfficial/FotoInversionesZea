@@ -1,13 +1,20 @@
 [
   {
-    "title": "Art prueba",
-    "brand": "Art prueba",
+    "title": "TP-Link Archer AX50",
+    "brand": "TP-Link",
     "condition": "Nuevo",
     "category": "Routers",
-    "features": [
-      "256 GB ROM",
-      "8 GB RAM"
-    ],
-    "image": "assets/products/Telefonos/C2195_HONOR_200_LITE.jpg",
-    "code": "C2195"
+    "features": ["Wi-Fi 6", "Dual Band", "2400 Mbps"],
+    "image": "assets/products/tplink-archer-ax50.jpg",
+    "code": "TPAX50"
   },
+  {
+    "title": "Huawei WiFi AX3",
+    "brand": "Huawei",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Wi-Fi 6", "Quad-Core", "3000 Mbps"],
+    "image": "assets/products/huawei-wifi-ax3.jpg",
+    "code": "HWAX3"
+  }
+]
