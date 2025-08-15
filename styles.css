@@ -260,8 +260,17 @@ img, svg{ max-width:100%; height:auto; display:block; }
 @keyframes reveal{to{transform:none; opacity:1}}
 .product-media{
   aspect-ratio: 4/3;
-  background:linear-gradient(135deg, rgba(0,230,118,.18), rgba(255,77,79,.18));
-  display:grid; place-items:center; border-radius:12px; overflow:hidden;
+  background:#fff; /* Fondo blanco para integrar fotos con borde blanco */
+  padding:8px; /* Espacio para crear el marco */
+  display:grid; place-items:center;
+  border-radius:12px;
+  overflow:hidden;
+}
+.product-media img{
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  border-radius:8px; /* Opcional: esquinas redondeadas de la imagen */
 }
 .product-media svg{width:42%; opacity:.9}
 .product-body{padding:14px}
@@ -283,6 +292,7 @@ img, svg{ max-width:100%; height:auto; display:block; }
   transform: translateX(-100%); animation: shine 1.4s infinite;
 }
 @keyframes shine{ to{ transform: translateX(100%); } }
+
 
 /* Servicios */
 .service-grid{display:grid; grid-template-columns:repeat(4, 1fr); gap:14px}
