@@ -207,15 +207,6 @@
     "code": "PEN002"
   },
   {
-    "title": "PENDRIVE 8GB FLY NEON",
-    "brand": "Fly",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "8GB", "Serie Neon"],
-    "image": "assets/products/Varios/PEN003_PENDRIVE_8GB_FLY_NEON.webp",
-    "code": "PEN003"
-  },
-  {
     "title": "PENDRIVE 8GB DELL",
     "brand": "Dell",
     "condition": "Nuevo",
@@ -351,15 +342,6 @@
     "code": "PEN028"
   },
   {
-    "title": "PENDRIVE 32GB HP MODEL V221W",
-    "brand": "HP",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "32GB", "Modelo V221W"],
-    "image": "assets/products/Varios/PEN029_PENDRIVE_32GB_HP_MODEL_V221W.webp",
-    "code": "PEN029"
-  },
-  {
     "title": "PENDRIVE 32GB KINGSTON MODEL 100 G3 DT100G3/32GB",
     "brand": "Kingston",
     "condition": "Nuevo",
@@ -367,60 +349,6 @@
     "features": ["Pendrive", "32GB", "Modelo DT100G3"],
     "image": "assets/products/Varios/PEN030_PENDRIVE_32GB_KINGSTON_MODEL_100_G3_DT100G3-32GB.webp",
     "code": "PEN030"
-  },
-  {
-    "title": "PENDRIVE 32GB EAGET MODEL U9L",
-    "brand": "Eaget",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "32GB", "Modelo U9L"],
-    "image": "assets/products/Varios/PEN031_PENDRIVE_32GB_EAGET_MODEL_U9L.webp",
-    "code": "PEN031"
-  },
-  {
-    "title": "PENDRIVE 32GB EAGET MODEL U6 GOLD, U6 RED",
-    "brand": "Eaget",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "32GB", "Modelos U6 Gold y U6 Red"],
-    "image": "assets/products/Varios/PEN032_PENDRIVE_32GB_EAGET_MODEL_U6_GOLD_U6_RED.webp",
-    "code": "PEN032"
-  },
-  {
-    "title": "PENDRIVE 32GB EAGET OTG V9 MODEL V86",
-    "brand": "Eaget",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "32GB", "OTG V9", "Modelo V86"],
-    "image": "assets/products/Varios/PEN033_PENDRIVE_32GB_EAGET_OTG_V9_MODEL_V86.webp",
-    "code": "PEN033"
-  },
-  {
-    "title": "PENDRIVE 32GB EAGET TIPO C MODEL CU31",
-    "brand": "Eaget",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "32GB", "Tipo C", "Modelo CU31"],
-    "image": "assets/products/Varios/PEN034_PENDRIVE_32GB_EAGET_TIPO_C_MODEL_CU31.webp",
-    "code": "PEN034"
-  },
-  {
-    "title": "PENDRIVE 32GB EAGET MODEL U2",
-    "brand": "Eaget",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "32GB", "Modelo U2"],
-    "image": "assets/products/Varios/PEN035_PENDRIVE_32GB_EAGET_MODEL_U2.webp",
-    "code": "PEN035"
-  },
-  {
-    "title": "PENDRIVE 32GB KINGSTON EXODIA MODEL DTXM/32GB",
-    "brand": "Kingston",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "32GB", "Exodia", "Modelo DTXM/32GB"],
-    "image": "assets/products/Varios/PEN036_PENDRIVE_32GB_KINGSTON_EXODIA_MODEL_DTXM-32GB.webp",
-    "code": "PEN036"
   },
   {
     "title": "PENDRIVE 32GB SANDISK USB 3.0 MODEL SDCZ73-032G-G46",
@@ -450,51 +378,6 @@
     "code": "PEN039"
   },
   {
-    "title": "PENDRIVE 64GB HP MODEL V222V",
-    "brand": "HP",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "64GB", "Modelo V222V"],
-    "image": "assets/products/Varios/PEN040_PENDRIVE_64GB_HP_MODEL_V222V.webp",
-    "code": "PEN040"
-  },
-  {
-    "title": "PENDRIVE 64GB HP MODEL V165W",
-    "brand": "HP",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "64GB", "Modelo V165W"],
-    "image": "assets/products/Varios/PEN041_PENDRIVE_64GB_HP_MODEL_V165W.webp",
-    "code": "PEN041"
-  },
-  {
-    "title": "PENDRIVE 64GB HP MODEL V295W",
-    "brand": "HP",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "64GB", "Modelo V295W"],
-    "image": "assets/products/Varios/PEN042_PENDRIVE_64GB_HP_MODEL_V295W.webp",
-    "code": "PEN042"
-  },
-    {
-    "title": "PENDRIVE 64GB HP MODEL V236W",
-    "brand": "HP",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "64GB", "Modelo V236W"],
-    "image": "assets/products/Varios/PEN043_PENDRIVE_64GB_HP_MODEL_V236W.webp",
-    "code": "PEN043"
-  },
-  {
-    "title": "PENDRIVE 64GB HP MODEL V212W",
-    "brand": "HP",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "64GB", "Modelo V212W"],
-    "image": "assets/products/Varios/PEN044_PENDRIVE_64GB_HP_MODEL_V212W.webp",
-    "code": "PEN044"
-  },
-  {
     "title": "PENDRIVE 64GB HIKSEMI MODEL HS-USB-E307C",
     "brand": "Hiksemi",
     "condition": "Nuevo",
@@ -522,15 +405,6 @@
     "code": "PEN047"
   },
   {
-    "title": "PENDRIVE 64GB KINGSTON MODEL G3",
-    "brand": "Kingston",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "64GB", "Modelo G3"],
-    "image": "assets/products/Varios/PEN048_PENDRIVE_64GB_KINGSTON_MODEL_G3.webp",
-    "code": "PEN048"
-  },
-  {
     "title": "PENDRIVE 64GB KINGSTON TIPO C MODEL DT70/64GB",
     "brand": "Kingston",
     "condition": "Nuevo",
@@ -538,15 +412,6 @@
     "features": ["Pendrive", "64GB", "Tipo C", "Modelo DT70/64GB"],
     "image": "assets/products/Varios/PEN049_PENDRIVE_64GB_KINGSTON_TIPO_C_MODEL_DT70-64GB.webp",
     "code": "PEN049"
-  },
-  {
-    "title": "PENDRIVE 64GB KINGSTON MODEL 100 G3 DT100G3/64GB",
-    "brand": "Kingston",
-    "condition": "Nuevo",
-    "category": "Varios",
-    "features": ["Pendrive", "64GB", "Modelo DT100G3"],
-    "image": "assets/products/Varios/PEN050_PENDRIVE_64GB_KINGSTON_MODEL_100_G3_DT100G3-64GB.webp",
-    "code": "PEN050"
   },
   {
     "title": "PENDRIVE 64GB HIKVISION MODEL M210P 3.2",
@@ -603,7 +468,7 @@
     "code": "PEN056"
   },
   {
-    "title": "PENDRIVE 128GB KINGSTON EXODIA MODEL DTX/128GB, G3 DT100G3/128GB",
+    "title": "PENDRIVE 128GB KINGSTON EXODIA MODEL DTX/128GB",
     "brand": "Kingston",
     "condition": "Nuevo",
     "category": "Varios",
