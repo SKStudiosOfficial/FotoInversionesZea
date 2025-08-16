@@ -1,20 +1,722 @@
 [
   {
-    "title": "TP-Link Archer AX50",
+    "title": "ACCESS POINT TECHO EAP115",
     "brand": "TP-Link",
     "condition": "Nuevo",
     "category": "Routers",
-    "features": ["Wi-Fi 6", "Dual Band", "2400 Mbps"],
-    "image": "assets/products/tplink-archer-ax50.jpg",
-    "code": "TPAX50"
+    "features": ["Access point de techo", "Modelo EAP115"],
+    "image": "assets/products/Routers/ROU110_ACCESS_POINT_TECHO_EAP115.webp",
+    "code": "ROU110"
   },
   {
-    "title": "Huawei WiFi AX3",
-    "brand": "Huawei",
+    "title": "ADAPTADOR BLUETOOTH USB DONGLE, V5.0, V2.0 MODEL BT-5",
+    "brand": "Genérica",
     "condition": "Nuevo",
     "category": "Routers",
-    "features": ["Wi-Fi 6", "Quad-Core", "3000 Mbps"],
-    "image": "assets/products/huawei-wifi-ax3.jpg",
-    "code": "HWAX3"
+    "features": ["Adaptador Bluetooth USB", "Bluetooth 5.0", "Compatibilidad 2.0", "Modelo BT-5"],
+    "image": "assets/products/Routers/ROU098_ADAPTADOR_BLUETOOTH_USB_DONGLE_V5.0_V2.0_MODEL_BT-5.webp",
+    "code": "ROU098"
+  },
+  {
+    "title": "ADAPTADOR INALAMBRICO ANTENA MODEL MU6H AC650",
+    "brand": "Mercusys",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Adaptador inalámbrico USB", "Modelo MU6H", "AC650"],
+    "image": "assets/products/Routers/ROU046_ADAPTADOR_INALAMBRICO_ANTENA_MODEL_MU6H_AC650.webp",
+    "code": "ROU046"
+  },
+  {
+    "title": "ADAPTADOR PASIVO TP-LINK TL-POE 24V 12V TL-POE2412G",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Adaptador pasivo PoE", "24V / 12V", "Modelo TL-POE2412G"],
+    "image": "assets/products/Routers/ROU113_ADAPTADOR_PASIVO_TP-LINK_TL-POE_24V_12V_TL-POE2412G.webp",
+    "code": "ROU113"
+  },
+  {
+    "title": "ADAPTADOR USB ARCHER T3U PLUS AC1300 HIGH GAIN TP-LINK",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Adaptador USB Wi-Fi", "Archer T3U Plus", "AC1300", "High Gain"],
+    "image": "assets/products/Routers/ROU127_ADAPTADOR_USB_ARCHER_T3U_PLUS_AC1300_HIGH_GAIN_TP-LINK.webp",
+    "code": "ROU127"
+  },
+  {
+    "title": "ADAPTADOR USB RECEPTOR WIFI USB 802.11N 300BPS",
+    "brand": "Genérica",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Adaptador USB Wi-Fi", "802.11n", "300Mbps"],
+    "image": "assets/products/Routers/ROU077_ADAPTADOR_USB_RECEPTOR_WIFI_USB_802.11N_300BPS.webp",
+    "code": "ROU077"
+  },
+  {
+    "title": "ADAPTADOR USB TP-LINK ARCHER T2U NANO",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Adaptador USB Wi-Fi", "Archer T2U Nano"],
+    "image": "assets/products/Routers/ROU146_ADAPTADOR_USB_TP-LINK_ARCHER_T2U_NANO.webp",
+    "code": "ROU146"
+  },
+  {
+    "title": "ADAPTADOR USB WIFI AC1300 WIFI 5",
+    "brand": "Genérica",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Adaptador USB Wi-Fi", "AC1300", "Wi-Fi 5"],
+    "image": "assets/products/Routers/ROU060_ADAPTADOR_USB_WIFI_AC1300_WIFI_5.webp",
+    "code": "ROU060"
+  },
+  {
+    "title": "ANTENA 136 520 MHZ 47CM",
+    "brand": "Genérica",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Antena 136–520 MHz", "47 cm"],
+    "image": "assets/products/Routers/ROU131_ANTENA_136_520_MHZ_47CM.webp",
+    "code": "ROU131"
+  },
+  {
+    "title": "ANTENA 144 430MHZ 20CM",
+    "brand": "Genérica",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Antena 144/430 MHz", "20 cm"],
+    "image": "assets/products/Routers/ROU133_ANTENA_144_430MHZ_20CM.webp",
+    "code": "ROU133"
+  },
+  {
+    "title": "ANTENA LITEBEAM AC GEN2 UBIQUITI MODEL LBE-5AC-GEN2",
+    "brand": "Ubiquiti",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["LiteBeam AC Gen2", "Modelo LBE-5AC-Gen2"],
+    "image": "assets/products/Routers/ROU009_ANTENA_LITEBEAM_AC_GEN2_UBIQUITI_MODEL_LBE-5AC-GEN2.webp",
+    "code": "ROU009"
+  },
+  {
+    "title": "ANTENA RECEPTORA 2 ANTENAS MERCUSYS WI FI ALTA GANANCIA MODEL MW300UH",
+    "brand": "Mercusys",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Receptor Wi-Fi USB", "2 antenas alta ganancia", "Modelo MW300UH"],
+    "image": "assets/products/Routers/ROU074_ANTENA_RECEPTORA_2_ANTENAS_MERCUSYS_WI_FI_ALTA_GANANCIA_MODEL_MW300UH.webp",
+    "code": "ROU074"
+  },
+  {
+    "title": "ANTENA RECEPTORA TP-LINK DE WIFI USB MODEL TL-WN722N",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Receptor Wi-Fi USB", "Modelo TL-WN722N"],
+    "image": "assets/products/Routers/ROU067_ANTENA_RECEPTORA_TP-LINK_DE_WIFI_USB_MODEL_TL-WN722N.webp",
+    "code": "ROU067"
+  },
+  {
+    "title": "ANTENA RECEPTORA TP-LINK DOS ANTENAS ALTA POTENCIA MODEL TL-WN8200ND",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Receptor Wi-Fi USB", "2 antenas alta potencia", "Modelo TL-WN8200ND"],
+    "image": "assets/products/Routers/ROU075_ANTENA_RECEPTORA_TP-LINK_DOS_ANTENAS_ALTA_POTENCIA_MODEL_TL-WN8200ND.webp",
+    "code": "ROU075"
+  },
+  {
+    "title": "ANTENA RECEPTORA USB MERCUSYS MODEL MW300UM",
+    "brand": "Mercusys",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Receptor Wi-Fi USB", "Modelo MW300UM"],
+    "image": "assets/products/Routers/ROU076_ANTENA_RECEPTORA_USB_MERCUSYS_MODEL_MW300UM.webp",
+    "code": "ROU076"
+  },
+  {
+    "title": "ANTENA RECPTORA DE WIFI 150MBPS 2.4GHZ",
+    "brand": "Genérica",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Receptor Wi-Fi USB", "150Mbps", "2.4GHz"],
+    "image": "assets/products/Routers/ROU073_ANTENA_RECPTORA_DE_WIFI_150MBPS_2.4GHZ.webp",
+    "code": "ROU073"
+  },
+  {
+    "title": "ANTENA USB INALAMBRICA MERCUSYS MODEL MW150US",
+    "brand": "Mercusys",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Adaptador USB Wi-Fi", "Modelo MW150US"],
+    "image": "assets/products/Routers/ROU054_ANTENA_USB_INALAMBRICA_MERCUSYS_MODEL_MW150US.webp",
+    "code": "ROU054"
+  },
+  {
+    "title": "ANTENA WIFI 144 430 1200MHZ 20CM",
+    "brand": "Genérica",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Antena 144/430/1200 MHz", "20 cm"],
+    "image": "assets/products/Routers/ROU123_ANTENA_WIFI_144_430_1200MHZ_20CM.webp",
+    "code": "ROU123"
+  },
+  {
+    "title": "ANTENA WIFI USB 600MBPS 2.4GHZ 802.11",
+    "brand": "Genérica",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Adaptador USB Wi-Fi", "600Mbps", "2.4GHz", "802.11"],
+    "image": "assets/products/Routers/ROU092_ANTENA_WIFI_USB_600MBPS_2.4GHZ_802.11.webp",
+    "code": "ROU092"
+  },
+  {
+    "title": "DECO 1 PACK TP-LINK AC1200 HC220-G5",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Deco 1 pack", "AC1200", "HC220-G5"],
+    "image": "assets/products/Routers/ROU140_DECO_1_PACK_TP-LINK_AC1200_HC220-G5.webp",
+    "code": "ROU140"
+  },
+  {
+    "title": "DECO 2 PACK TP-LINK AC1200 HC220-G5",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Deco 2 pack", "AC1200", "HC220-G5"],
+    "image": "assets/products/Routers/ROU141_DECO_2_PACK_TP-LINK_AC1200_HC220-G5.webp",
+    "code": "ROU141"
+  },
+  {
+    "title": "DECO M4 TP-LINK 2-PACK AC1200 28057",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Deco M4", "2-pack", "AC1200", "Modelo 28057"],
+    "image": "assets/products/Routers/ROU135_DECO_M4_TP-LINK_2-PACK_AC1200_28057.webp",
+    "code": "ROU135"
+  },
+  {
+    "title": "EXTENSOR DE RANGO MERCUSYS AC1200 MODEL ME30 2 ANT",
+    "brand": "Mercusys",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Extensor de rango", "AC1200", "Modelo ME30", "2 antenas"],
+    "image": "assets/products/Routers/ROU056_EXTENSOR_DE_RANGO_MERCUSYS_AC1200_MODEL_ME30_2_ANT.webp",
+    "code": "ROU056"
+  },
+  {
+    "title": "EXTENSOR DE RANGO RE300 AC1200",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Extensor de rango", "RE300", "AC1200"],
+    "image": "assets/products/Routers/ROU109_EXTENSOR_DE_RANGO_RE300_AC1200.webp",
+    "code": "ROU109"
+  },
+    {
+    "title": "EXTENSOR DE RANGO RE505X AX1500 WIFI6",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Extensor de rango", "RE505X", "AX1500", "Wi-Fi 6"],
+    "image": "assets/products/Routers/ROU128_EXTENSOR_DE_RANGO_RE505X_AX1500_WIFI6.webp",
+    "code": "ROU128"
+  },
+  {
+    "title": "EXTENSOR DE RANGO TP LINK AC1200 DUAL BAND MODEL RE315 DUAL",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Extensor de rango", "AC1200", "Dual Band", "Modelo RE315"],
+    "image": "assets/products/Routers/ROU007_EXTENSOR_DE_RANGO_TP_LINK_AC1200_DUAL_BAND_MODEL_RE315_DUAL.webp",
+    "code": "ROU007"
+  },
+  {
+    "title": "EXTENSOR DE RANGO TP-LINK MODEL RE220 AC750 DUAL BAND",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Extensor de rango", "Modelo RE220", "AC750", "Dual Band"],
+    "image": "assets/products/Routers/ROU047_EXTENSOR_DE_RANGO_TP-LINK_MODEL_RE220_AC750_DUAL_BAND.webp",
+    "code": "ROU047"
+  },
+  {
+    "title": "EXTENSOR DE RANGO TP-LINK MODEL RE450 AC1750",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Extensor de rango", "Modelo RE450", "AC1750"],
+    "image": "assets/products/Routers/ROU117_EXTENSOR_DE_RANGO_TP-LINK_MODEL_RE450_AC1750.webp",
+    "code": "ROU117"
+  },
+  {
+    "title": "EXTENSOR DE RANGO XIAOMI AC1200",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Extensor de rango", "AC1200"],
+    "image": "assets/products/Routers/ROU014_EXTENSOR_DE_RANGO_XIAOMI_AC1200.webp",
+    "code": "ROU014"
+  },
+  {
+    "title": "MODEM ROUTER 3G 4G ZTE MODEL MF283U",
+    "brand": "ZTE",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Modem Router", "3G/4G", "Modelo MF283U"],
+    "image": "assets/products/Routers/ROU063_MODEM_ROUTER_3G_4G_ZTE_MODEL_MF283U.webp",
+    "code": "ROU063"
+  },
+  {
+    "title": "MODEM ROUTER CANTV ADSL CHINA UNICOMP",
+    "brand": "Unicomp",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Modem Router", "CANTV ADSL"],
+    "image": "assets/products/Routers/ROU059_MODEM_ROUTER_CANTV_ADSL_CHINA_UNICOMP.webp",
+    "code": "ROU059"
+  },
+  {
+    "title": "MODEM ROUTER MERCUSYS CANTV 2 ANTENAS MODEL MW300D",
+    "brand": "Mercusys",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Modem Router", "CANTV", "2 Antenas", "Modelo MW300D"],
+    "image": "assets/products/Routers/ROU024_MODEM_ROUTER_MERCUSYS_CANTV_2_ANTENAS_MODEL_MW300D.webp",
+    "code": "ROU024"
+  },
+  {
+    "title": "MODEM ROUTER TOVARSAT CISCO DPC3825",
+    "brand": "Cisco",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Modem Router", "Tovarsat", "Modelo DPC3825"],
+    "image": "assets/products/Routers/ROU085_MODEM_ROUTER_TOVARSAT_CISCO_DPC3825.webp",
+    "code": "ROU085"
+  },
+  {
+    "title": "MODEM ROUTER TP-LINK CANTV AC1200 MODEL ARCHER VR300 DUALBAND 4 ANTENAS 28340",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Modem Router", "CANTV", "AC1200", "Archer VR300", "Dual Band", "4 Antenas"],
+    "image": "assets/products/Routers/ROU062_MODEM_ROUTER_TP-LINK_CANTV_AC1200_MODEL_ARCHER_VR300_DUALBAND_4_ANTENAS_28340.webp",
+    "code": "ROU062"
+  },
+  {
+    "title": "MODEM ROUTER UBEE TOVARSAT MODEL DDW3610",
+    "brand": "Ubee",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Modem Router", "Tovarsat", "Modelo DDW3610"],
+    "image": "assets/products/Routers/ROU061_MODEM_ROUTER_UBEE_TOVARSAT_MODEL_DDW3610.webp",
+    "code": "ROU061"
+  },
+  {
+    "title": "MODEN ROUTER CANTV 2 ANTENAS TP-LINK MODEL TD-W8961N 28307",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Modem Router", "CANTV", "2 Antenas", "Modelo TD-W8961N"],
+    "image": "assets/products/Routers/ROU037_MODEN_ROUTER_CANTV_2_ANTENAS_TP-LINK_MODEL_TD-W8961N_28307.webp",
+    "code": "ROU037"
+  },
+  {
+    "title": "PHAROS CPE220 300MBPS 2.4GHZ",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Pharos CPE220", "300Mbps", "2.4GHz"],
+    "image": "assets/products/Routers/ROU006_PHAROS_CPE220_300MBPS_2.4GHZ.webp",
+    "code": "ROU006"
+  },
+  {
+    "title": "RECEPTOR DE BLUETOOTH TX XR",
+    "brand": "Genérica",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Receptor Bluetooth", "Modelo TX XR"],
+    "image": "assets/products/Routers/ROU138_RECEPTOR_DE_BLUETOOTH_TX_XR.webp",
+    "code": "ROU138"
+  },
+  {
+    "title": "REPETIDOR WIFI INALAMBRICO 2.4 GHZ ANTENA INTERNA 12593",
+    "brand": "Genérica",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Repetidor Wi-Fi", "2.4GHz", "Antena interna"],
+    "image": "assets/products/Routers/ROU142_REPETIDOR_WIFI_INALAMBRICO_2.4_GHZ_ANTENA_INTERNA_12593.webp",
+    "code": "ROU142"
+  },
+  {
+    "title": "REPETIDOR WIFI INALAMBRICO 4 ANTENAS 1200MBPS 12594",
+    "brand": "Genérica",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Repetidor Wi-Fi", "4 Antenas", "1200Mbps"],
+    "image": "assets/products/Routers/ROU143_REPETIDOR_WIFI_INALAMBRICO_4_ANTENAS_1200MBPS_12594.webp",
+    "code": "ROU143"
+  },
+  {
+    "title": "ROUTER 4 ANTENAS TP-LINK DUAL BAND 2, 4 5GHZ MODEL ARCHER C50 28360",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "4 Antenas", "Dual Band 2.4/5GHz", "Modelo Archer C50"],
+    "image": "assets/products/Routers/ROU044_ROUTER_4_ANTENAS_TP-LINK_DUAL_BAND_2,4_5GHZ_MODEL_ARCHER_C50_28360.webp",
+    "code": "ROU044"
+  },
+  {
+    "title": "ROUTER ARCHER C58HP AC1350 DUALBAND",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "Archer C58HP", "AC1350", "Dual Band"],
+    "image": "assets/products/Routers/ROU136_ROUTER_ARCHER_C58HP_AC1350_DUALBAND.webp",
+    "code": "ROU136"
+  },
+  {
+    "title": "ROUTER AX1800 WIFI 6",
+    "brand": "Genérica",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "AX1800", "Wi-Fi 6"],
+    "image": "assets/products/Routers/ROU072_ROUTER_AX1800_WIFI_6.webp",
+    "code": "ROU072"
+  },
+  {
+    "title": "ROUTER EX141 AX1500 WIFI 6 GIGABIT ISP",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "EX141", "AX1500", "Wi-Fi 6", "Gigabit ISP"],
+    "image": "assets/products/Routers/ROU134_ROUTER_EX141_AX1500_WIFI_6_GIGABIT_ISP.webp",
+    "code": "ROU134"
+  },
+  {
+    "title": "ROUTER EX220 AX1800 WIFI 6 GIGABIT",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "EX220", "AX1800", "Wi-Fi 6", "Gigabit"],
+    "image": "assets/products/Routers/ROU102_ROUTER_EX220_AX1800_WIFI_6_GIGABIT.webp",
+    "code": "ROU102"
+  },
+  {
+    "title": "ROUTER EX222 AX1800 WIFI 6 GIGABIT",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "EX222", "AX1800", "Wi-Fi 6", "Gigabit"],
+    "image": "assets/products/Routers/ROU144_ROUTER_EX222_AX1800_WIFI_6_GIGABIT.webp",
+    "code": "ROU144"
+  },
+  {
+    "title": "ROUTER EX511 AX3000 WIFI 6 GIGABIT",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "EX511", "AX3000", "Wi-Fi 6", "Gigabit"],
+    "image": "assets/products/Routers/ROU145_ROUTER_EX511_AX3000_WIFI_6_GIGABIT.webp",
+    "code": "ROU145"
+  },
+  {
+    "title": "ROUTER INALAMBRICO MERCUSYS DUALBAND MR20 2 ANTENA AC750",
+    "brand": "Mercusys",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router inalámbrico", "Dual Band", "2 Antenas", "AC750", "Modelo MR20"],
+    "image": "assets/products/Routers/ROU091_ROUTER_INALAMBRICO_MERCUSYS_DUALBAND_MR20_2_ANTENA_AC750.webp",
+    "code": "ROU091"
+  },
+  {
+    "title": "ROUTER MERCUSYS 3 ANTENAS MODEL MW330HP ALTO PODER",
+    "brand": "Mercusys",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "3 Antenas", "Modelo MW330HP", "Alto poder"],
+    "image": "assets/products/Routers/ROU034_ROUTER_MERCUSYS_3_ANTENAS_MODEL_MW330HP_ALTO_PODER.webp",
+    "code": "ROU034"
+  },
+    {
+    "title": "ROUTER MI XIAOMI 4A BLANCO",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router Mi 4A", "Blanco"],
+    "image": "assets/products/Routers/ROU010_ROUTER_MI_XIAOMI_4A_BLANCO.webp",
+    "code": "ROU010"
+  },
+  {
+    "title": "ROUTER SECUTECH 3G 1 ANTENA MODEL RI3G-11S",
+    "brand": "Secutech",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router 3G", "1 Antena", "Modelo RI3G-11S"],
+    "image": "assets/products/Routers/ROU005_ROUTER_SECUTECH_3G_1_ANTENA_MODEL_RI3G-11S.webp",
+    "code": "ROU005"
+  },
+  {
+    "title": "ROUTER TENDA AX1500 4 ANTENAS DUAL BAND MODEL TX2 PRO",
+    "brand": "Tenda",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "AX1500", "4 Antenas", "Dual Band", "Modelo TX2 Pro"],
+    "image": "assets/products/Routers/ROU036_ROUTER_TENDA_AX1500_4_ANTENAS_DUAL_BAND_MODEL_TX2_PRO.webp",
+    "code": "ROU036"
+  },
+  {
+    "title": "ROUTER TP LINK AX12 AX1500 XIFI WIFI6 GIGABIT",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "AX12", "AX1500", "Wi-Fi 6", "Gigabit"],
+    "image": "assets/products/Routers/ROU130_ROUTER_TP_LINK_AX12_AX1500_XIFI_WIFI6_GIGABIT.webp",
+    "code": "ROU130"
+  },
+  {
+    "title": "ROUTER TP-LINK 3 ANTERNAS MODEL TL-WR845N",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "3 Antenas", "Modelo TL-WR845N"],
+    "image": "assets/products/Routers/ROU031_ROUTER_TP-LINK_3_ANTERNAS_MODEL_TL-WR845N.webp",
+    "code": "ROU031"
+  },
+  {
+    "title": "ROUTER TP-LINK 3 ANTERNAS MODEL TL-WR940N",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "3 Antenas", "Modelo TL-WR940N"],
+    "image": "assets/products/Routers/ROU030_ROUTER_TP-LINK_3_ANTERNAS_MODEL_TL-WR940N.webp",
+    "code": "ROU030"
+  },
+  {
+    "title": "ROUTER TP-LINK AC1900 DUAL BAND MODEL ARCHER C80",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "AC1900", "Dual Band", "Modelo Archer C80"],
+    "image": "assets/products/Routers/ROU049_ROUTER_TP-LINK_AC1900_DUAL_BAND_MODEL_ARCHER_C80.webp",
+    "code": "ROU049"
+  },
+  {
+    "title": "ROUTER TP-LINK AGINET EC220-G5 GIGABIT AC1200 DUAL BAND",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router Aginet EC220-G5", "Gigabit", "AC1200", "Dual Band"],
+    "image": "assets/products/Routers/ROU015_ROUTER_TP-LINK_AGINET_EC220-G5_GIGABIT_AC1200_DUAL_BAND.webp",
+    "code": "ROU015"
+  },
+  {
+    "title": "ROUTER TP-LINK ARCHER C20 AC750 DUALBAND 3 ANTENAS",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router Archer C20", "AC750", "Dual Band", "3 Antenas"],
+    "image": "assets/products/Routers/ROU018_ROUTER_TP-LINK_ARCHER_C20_AC750_DUALBAND_3_ANTENAS.webp",
+    "code": "ROU018"
+  },
+  {
+    "title": "ROUTER TP-LINK DE ALTA POTENCIA 2 ANTENAS MODEL TL-WR841HP",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router de alta potencia", "2 Antenas", "Modelo TL-WR841HP"],
+    "image": "assets/products/Routers/ROU035_ROUTER_TP-LINK_DE_ALTA_POTENCIA_2_ANTENAS_MODEL_TL-WR841HP.webp",
+    "code": "ROU035"
+  },
+  {
+    "title": "ROUTER TP-LINK DOBLE BANDA AC750 ARCHER C24",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "AC750", "Dual Band", "Modelo Archer C24"],
+    "image": "assets/products/Routers/ROU050_ROUTER_TP-LINK_DOBLE_BANDA_AC750_ARCHER_C24.webp",
+    "code": "ROU050"
+  },
+  {
+    "title": "ROUTER TP-LINK DUAL AC1200 MODEL ARCHER C6 4 ANTENAS GIGABIT",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "AC1200", "Dual Band", "Archer C6", "4 Antenas", "Gigabit"],
+    "image": "assets/products/Routers/ROU045_ROUTER_TP-LINK_DUAL_AC1200_MODEL_ARCHER_C6_4_ANTENAS_GIGABIT.webp",
+    "code": "ROU045"
+  },
+  {
+    "title": "ROUTER TP-LINK OMADA GIGABIT MODEL ER605",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router Omada", "Gigabit", "Modelo ER605"],
+    "image": "assets/products/Routers/ROU106_ROUTER_TP-LINK_OMADA_GIGABIT_MODEL_ER605.webp",
+    "code": "ROU106"
+  },
+  {
+    "title": "ROUTER XIAOMI R4AC AC1200 4 ANTENAS",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "R4AC", "AC1200", "4 Antenas"],
+    "image": "assets/products/Routers/ROU103_ROUTER_XIAOMI_R4AC_AC1200_4_ANTENAS.webp",
+    "code": "ROU103"
+  },
+  {
+    "title": "ROUTER XIAOMI RB02 AC1200 4 ANTENAS",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "RB02", "AC1200", "4 Antenas"],
+    "image": "assets/products/Routers/ROU104_ROUTER_XIAOMI_RB02_AC1200_4_ANTENAS.webp",
+    "code": "ROU104"
+  },
+  {
+    "title": "ROUTER XIAOMI RD12 AX1500 GIGABIT",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "RD12", "AX1500", "Gigabit"],
+    "image": "assets/products/Routers/ROU012_ROUTER_XIAOMI_RD12_AX1500_GIGABIT.webp",
+    "code": "ROU012"
+  },
+  {
+    "title": "ROUTER XIAOMI RD23 AX3000T WIFI 6 4 ANTENAS TP-LINK",
+    "brand": "Xiaomi",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Router", "RD23", "AX3000T", "Wi-Fi 6", "4 Antenas"],
+    "image": "assets/products/Routers/ROU129_ROUTER_XIAOMI_RD23_AX3000T_WIFI_6_4_ANTENAS_TP-LINK.webp",
+    "code": "ROU129"
+  },
+  {
+    "title": "SISTEMA DE RED MESH MERCUSYS HALO S3 PACK DE 3",
+    "brand": "Mercusys",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Sistema Mesh", "Halo S3", "Pack de 3"],
+    "image": "assets/products/Routers/ROU039_SISTEMA_DE_RED_MESH_MERCUSYS_HALO_S3_PACK_DE_3.webp",
+    "code": "ROU039"
+  },
+  {
+    "title": "SMART HUB TAPO H200",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Smart Hub", "Modelo H200"],
+    "image": "assets/products/Routers/ROU124_SMART_HUB_TAPO_H200.webp",
+    "code": "ROU124"
+  },
+  {
+    "title": "SWITCH SECUTECH, MERCUSYS 5 PUERTOS MODEL MS105G",
+    "brand": "Mercusys",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Switch", "5 Puertos", "Modelo MS105G"],
+    "image": "assets/products/Routers/ROU079_SWITCH_SECUTECH_MERCUSYS_5_PUERTOS_MODEL_MS105G.webp",
+    "code": "ROU079"
+  },
+  {
+    "title": "SWITCH SECUTECH, MERCUSYS 8 PUERTOS MODEL MS108G 24104",
+    "brand": "Mercusys",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Switch", "8 Puertos", "Modelo MS108G"],
+    "image": "assets/products/Routers/ROU080_SWITCH_SECUTECH_MERCUSYS_8_PUERTOS_MODEL_MS108G_24104.webp",
+    "code": "ROU080"
+  },
+  {
+    "title": "SWITCH TP-LINK 5 PUERTOS GIGABIT MODEL LS105G",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Switch", "5 Puertos", "Gigabit", "Modelo LS105G"],
+    "image": "assets/products/Routers/ROU082_SWITCH_TP-LINK_5_PUERTOS_GIGABIT_MODEL_LS105G.webp",
+    "code": "ROU082"
+  },
+  {
+    "title": "SWITCH TP-LINK 8 PUERTOS GIGABIT MODEL LS108G",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Switch", "8 Puertos", "Gigabit", "Modelo LS108G"],
+    "image": "assets/products/Routers/ROU093_SWITCH_TP-LINK_8_PUERTOS_GIGABIT_MODEL_LS108G.webp",
+    "code": "ROU093"
+  },
+  {
+    "title": "SWITCH TP-LINK 8 PUERTOS MODEL LS1008 10 100 MBPS 28212",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Switch", "8 Puertos", "10/100 Mbps", "Modelo LS1008"],
+    "image": "assets/products/Routers/ROU095_SWITCH_TP-LINK_8_PUERTOS_MODEL_LS1008_10_100_MBPS_28212.webp",
+    "code": "ROU095"
+  },
+  {
+    "title": "SWITCH TP-LINK 8 PUERTOS MODEL LS1008G GIGABIT",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Switch", "8 Puertos", "Gigabit", "Modelo LS1008G"],
+    "image": "assets/products/Routers/ROU096_SWITCH_TP-LINK_8_PUERTOS_MODEL_LS1008G_GIGABIT.webp",
+    "code": "ROU096"
+  },
+    {
+    "title": "SWITCH TP-LINK LS1005G 5 PUERTOS GIGABIT",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Switch", "5 Puertos", "Gigabit", "Modelo LS1005G"],
+    "image": "assets/products/Routers/ROU114_SWITCH_TP-LINK_LS1005G_5_PUERTOS_GIGABIT.webp",
+    "code": "ROU114"
+  },
+  {
+    "title": "TAPO T110 SENSOR CONTACTO INTELIGENTE",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Sensor de contacto inteligente", "Modelo Tapo T110"],
+    "image": "assets/products/Routers/ROU107_TAPO_T110_SENSOR_CONTACTO_INTELIGENTE.webp",
+    "code": "ROU107"
+  },
+  {
+    "title": "TARJETA DE RED TL-WN881ND PCI-E 300MBPS N",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Tarjeta de red PCI-E", "Modelo TL-WN881ND", "300Mbps", "Estándar N"],
+    "image": "assets/products/Routers/ROU112_TARJETA_DE_RED_TL-WN881ND_PCI-E_300MBPS_N.webp",
+    "code": "ROU112"
+  },
+  {
+    "title": "TP-LINK ACCESS POINT MODEL EAP110-OUTDOOR",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Access Point", "Modelo EAP110-Outdoor"],
+    "image": "assets/products/Routers/ROU013_TP-LINK_ACCESS_POINT_MODEL_EAP110-OUTDOOR.webp",
+    "code": "ROU013"
+  },
+  {
+    "title": "TP-LINK ACCESS POINT MODEL EAP225-OUTDOOR MU-MIMO AC1200",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Access Point", "Modelo EAP225-Outdoor", "MU-MIMO", "AC1200"],
+    "image": "assets/products/Routers/ROU051_TP-LINK_ACCESS_POINT_MODEL_EAP225-OUTDOOR_MU-MIMO_AC1200.webp",
+    "code": "ROU051"
+  },
+  {
+    "title": "USB 2.0 A RJ45 ADAPTADOR TP-LINK MODEL UE200",
+    "brand": "TP-Link",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Adaptador USB 2.0 a RJ45", "Modelo UE200"],
+    "image": "assets/products/Routers/ROU097_USB_2.0_A_RJ45_ADAPTADOR_TP-LINK_MODEL_UE200.webp",
+    "code": "ROU097"
   }
 ]
