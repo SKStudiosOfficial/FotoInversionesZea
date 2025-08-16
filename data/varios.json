@@ -1,20 +1,623 @@
 [
   {
-    "title": "Mochila Antirrobo",
-    "brand": "Xiaomi",
+    "title": "CALCULADORA CASIO DS-800A",
+    "brand": "Casio",
     "condition": "Nuevo",
     "category": "Varios",
-    "features": ["Puerto USB", "Impermeable", "15 pulgadas"],
-    "image": "assets/products/mochila-xiaomi.jpg",
-    "code": "MOCHXIA15"
+    "features": ["Calculadora de escritorio", "Modelo DS-800A"],
+    "image": "assets/products/Varios/CAL002_CALCULADORA_CASIO_DS-800A.webp",
+    "code": "CAL002"
   },
   {
-    "title": "Parlante Bluetooth Portátil",
-    "brand": "Sony",
+    "title": "CALCULADORA CASIO M-28",
+    "brand": "Casio",
     "condition": "Nuevo",
     "category": "Varios",
-    "features": ["Resistente al agua", "12 horas de batería", "Bluetooth 5.0"],
-    "image": "assets/products/sony-bt-portatil.jpg",
-    "code": "SONYBT12H"
+    "features": ["Calculadora básica", "Modelo M-28"],
+    "image": "assets/products/Varios/CAL003_CALCULADORA_CASIO_M-28.webp",
+    "code": "CAL003"
+  },
+  {
+    "title": "CALCULADORA CASIO MX-12B ORIGINAL",
+    "brand": "Casio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora básica", "Modelo MX-12B", "Original"],
+    "image": "assets/products/Varios/CAL004_CALCULADORA_CASIO_MX-12B_ORIGINAL.webp",
+    "code": "CAL004"
+  },
+  {
+    "title": "CALCULADORA KADIO 12 DIG MODEL KD-8882B",
+    "brand": "Kadio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora 12 dígitos", "Modelo KD-8882B"],
+    "image": "assets/products/Varios/CAL005_CALCULADORA_KADIO_12_DIG_MODEL_KD-8882B.webp",
+    "code": "CAL005"
+  },
+  {
+    "title": "CALCULADORA KENKO MODEL KK-837B",
+    "brand": "Kenko",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora básica", "Modelo KK-837B"],
+    "image": "assets/products/Varios/CAL006_CALCULADORA_KENKO_MODEL_KK-837B.webp",
+    "code": "CAL006"
+  },
+  {
+    "title": "CALCULADORA ELECTRONICA BESTON MODEL BST-9633",
+    "brand": "Beston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora electrónica", "Modelo BST-9633"],
+    "image": "assets/products/Varios/CAL007_CALCULADORA_ELECTRONICA_BESTON_MODEL_BST-9633.webp",
+    "code": "CAL007"
+  },
+  {
+    "title": "CALCULADORA KADIO 12 DIG MODEL KD-3866B-C",
+    "brand": "Kadio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora 12 dígitos", "Modelo KD-3866B-C"],
+    "image": "assets/products/Varios/CAL008_CALCULADORA_KADIO_12_DIG_MODEL_KD-3866B-C.webp",
+    "code": "CAL008"
+  },
+  {
+    "title": "CALCULADORA BESTON BST-8837B",
+    "brand": "Beston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora básica", "Modelo BST-8837B"],
+    "image": "assets/products/Varios/CAL009_CALCULADORA_BESTON_BST-8837B.webp",
+    "code": "CAL009"
+  },
+  {
+    "title": "CALCULADORA CIENTIFICA KADIO KD-82MS ORIGINAL",
+    "brand": "Kadio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora científica", "Modelo KD-82MS", "Original"],
+    "image": "assets/products/Varios/CAL010_CALCULADORA_CIENTIFICA_KADIO_KD-82MS_ORIGINAL.webp",
+    "code": "CAL010"
+  },
+  {
+    "title": "CALCULADORA KADIO 12 DIG MODEL KD-3851B",
+    "brand": "Kadio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora 12 dígitos", "Modelo KD-3851B"],
+    "image": "assets/products/Varios/CAL011_CALCULADORA_KADIO_12_DIG_MODEL_KD-3851B.webp",
+    "code": "CAL011"
+  },
+  {
+    "title": "CALCULADORA KADIO 12 DIG KD-3866B",
+    "brand": "Kadio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora 12 dígitos", "Modelo KD-3866B"],
+    "image": "assets/products/Varios/CAL012_CALCULADORA_KADIO_12_DIG_KD-3866B.webp",
+    "code": "CAL012"
+  },
+  {
+    "title": "CALCULADORA KADIO 8 DIG KD-815",
+    "brand": "Kadio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora 8 dígitos", "Modelo KD-815"],
+    "image": "assets/products/Varios/CAL013_CALCULADORA_KADIO_8_DIG_KD-815.webp",
+    "code": "CAL013"
+  },
+  {
+    "title": "CALCULADORA CASIO MODEL fx-570LA PLUS",
+    "brand": "Casio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora científica", "Modelo FX-570LA Plus"],
+    "image": "assets/products/Varios/CAL014_CALCULADORA_CASIO_MODEL_fx-570LA_PLUS.webp",
+    "code": "CAL014"
+  },
+  {
+    "title": "CALCULADORA CIENTIFICA CASIO FX-82MS ORIGINAL",
+    "brand": "Casio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora científica", "Modelo FX-82MS", "Original"],
+    "image": "assets/products/Varios/CAL015_CALCULADORA_CIENTIFICA_CASIO_FX-82MS_ORIGINAL.webp",
+    "code": "CAL015"
+  },
+  {
+    "title": "CALCULADORA CASIO MODEL HL-815-L",
+    "brand": "Casio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora básica", "Modelo HL-815L"],
+    "image": "assets/products/Varios/CAL016_CALCULADORA_CASIO_MODEL_HL-815-L.webp",
+    "code": "CAL016"
+  },
+  {
+    "title": "CALCULADORA CASIO MODEL MX-12B",
+    "brand": "Casio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora básica", "Modelo MX-12B"],
+    "image": "assets/products/Varios/CAL017_CALCULADORA_CASIO_MODEL_MX-12B.webp",
+    "code": "CAL017"
+  },
+  {
+    "title": "CALCULADORA KADIO MODEL KD-9633B",
+    "brand": "Kadio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora básica", "Modelo KD-9633B"],
+    "image": "assets/products/Varios/CAL018_CALCULADORA_KADIO_MODEL_KD-9633B.webp",
+    "code": "CAL018"
+  },
+  {
+    "title": "CALCULADORA CIENTIFICA DEXIN MODEL KK-82MS-B",
+    "brand": "Dexin",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora científica", "Modelo KK-82MS-B"],
+    "image": "assets/products/Varios/CAL019_CALCULADORA_CIENTIFICA_DEXIN_MODEL_KK-82MS-B.webp",
+    "code": "CAL019"
+  },
+  {
+    "title": "CALCULADORA CASIO 8 DIG MODEL HL-815L",
+    "brand": "Casio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora 8 dígitos", "Modelo HL-815L"],
+    "image": "assets/products/Varios/CAL020_CALCULADORA_CASIO_8_DIG_MODEL_HL-815L.webp",
+    "code": "CAL020"
+  },
+  {
+    "title": "CALCULADORA KADIO KD-350MSC",
+    "brand": "Kadio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora básica", "Modelo KD-350MSC"],
+    "image": "assets/products/Varios/CAL021_CALCULADORA_KADIO_KD-350MSC.webp",
+    "code": "CAL021"
+  },
+  {
+    "title": "CALCULADORA DEXIN KK-837-12S",
+    "brand": "Dexin",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora básica", "Modelo KK-837-12S"],
+    "image": "assets/products/Varios/CAL022_CALCULADORA_DEXIN_KK-837-12S.webp",
+    "code": "CAL022"
+  },
+  {
+    "title": "CALCULADORA CRSIIO CS-837-12S",
+    "brand": "Crsiio",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Calculadora básica", "Modelo CS-837-12S"],
+    "image": "assets/products/Varios/CAL023_CALCULADORA_CRSIIO_CS-837-12S.webp",
+    "code": "CAL023"
+  },
+  {
+    "title": "PENDRIVE 8GB HP MODEL V165G",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "8GB", "Modelo V165G"],
+    "image": "assets/products/Varios/PEN002_PENDRIVE_8GB_HP_MODEL_V165G.webp",
+    "code": "PEN002"
+  },
+  {
+    "title": "PENDRIVE 8GB FLY NEON",
+    "brand": "Fly",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "8GB", "Serie Neon"],
+    "image": "assets/products/Varios/PEN003_PENDRIVE_8GB_FLY_NEON.webp",
+    "code": "PEN003"
+  },
+  {
+    "title": "PENDRIVE 8GB DELL",
+    "brand": "Dell",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "8GB"],
+    "image": "assets/products/Varios/PEN005_PENDRIVE_8GB_DELL.webp",
+    "code": "PEN005"
+  },
+  {
+    "title": "PENDRIVE MICRODRIVE 16GB",
+    "brand": "Microdrive",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "16GB"],
+    "image": "assets/products/Varios/PEN010_PENDRIVE_MICRODRIVE_16GB.webp",
+    "code": "PEN010"
+  },
+  {
+    "title": "PENDRIVE 16GB HP MODEL V165W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "16GB", "Modelo V165W"],
+    "image": "assets/products/Varios/PEN011_PENDRIVE_16GB_HP_MODEL_V165W.webp",
+    "code": "PEN011"
+  },
+  {
+    "title": "PENDRIVE 16GB SANDISK",
+    "brand": "SanDisk",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "16GB"],
+    "image": "assets/products/Varios/PEN012_PENDRIVE_16GB_SANDISK.webp",
+    "code": "PEN012"
+  },
+  {
+    "title": "PENDRIVE 16GB KINGSTON",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "16GB"],
+    "image": "assets/products/Varios/PEN013_PENDRIVE_16GB_KINGSTON.webp",
+    "code": "PEN013"
+  },
+  {
+    "title": "PENDRIVE 32GB KINGSTON 2.0",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "USB 2.0"],
+    "image": "assets/products/Varios/PEN019_PENDRIVE_32GB_KINGSTON_2.0.webp",
+    "code": "PEN019"
+  },
+  {
+    "title": "PENDRIVE 32GB KINGSTON TIPO C MODEL DT70/32GB",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Tipo C", "Modelo DT70/32GB"],
+    "image": "assets/products/Varios/PEN020_PENDRIVE_32GB_KINGSTON_TIPO_C_MODEL_DT70-32GB.webp",
+    "code": "PEN020"
+  },
+  {
+    "title": "PENDRIVE 32GB SANDISK",
+    "brand": "SanDisk",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB"],
+    "image": "assets/products/Varios/PEN021_PENDRIVE_32GB_SANDISK.webp",
+    "code": "PEN021"
+  },
+  {
+    "title": "PENDRIVE 32GB HP MODEL V178B/ V178P",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Modelo V178B / V178P"],
+    "image": "assets/products/Varios/PEN022_PENDRIVE_32GB_HP_MODEL_V178B_V178P.webp",
+    "code": "PEN022"
+  },
+  {
+    "title": "PENDRIVE 32GB HP MODEL X755W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Modelo X755W"],
+    "image": "assets/products/Varios/PEN023_PENDRIVE_32GB_HP_MODEL_X755W.webp",
+    "code": "PEN023"
+  },
+  {
+    "title": "PENDRIVE 32GB HP MODEL V165W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Modelo V165W"],
+    "image": "assets/products/Varios/PEN024_PENDRIVE_32GB_HP_MODEL_V165W.webp",
+    "code": "PEN024"
+  },
+  {
+    "title": "PENDRIVE 32GB HP MODEL V222W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Modelo V222W"],
+    "image": "assets/products/Varios/PEN025_PENDRIVE_32GB_HP_MODEL_V222W.webp",
+    "code": "PEN025"
+  },
+  {
+    "title": "PENDRIVE 32GB HP MODEL V295W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Modelo V295W"],
+    "image": "assets/products/Varios/PEN026_PENDRIVE_32GB_HP_MODEL_V295W.webp",
+    "code": "PEN026"
+  },
+  {
+    "title": "PENDRIVE 32GB HP MODEL V236W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Modelo V236W"],
+    "image": "assets/products/Varios/PEN027_PENDRIVE_32GB_HP_MODEL_V236W.webp",
+    "code": "PEN027"
+  },
+  {
+    "title": "PENDRIVE 32GB HP MODEL V150W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Modelo V150W"],
+    "image": "assets/products/Varios/PEN028_PENDRIVE_32GB_HP_MODEL_V150W.webp",
+    "code": "PEN028"
+  },
+  {
+    "title": "PENDRIVE 32GB HP MODEL V221W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Modelo V221W"],
+    "image": "assets/products/Varios/PEN029_PENDRIVE_32GB_HP_MODEL_V221W.webp",
+    "code": "PEN029"
+  },
+  {
+    "title": "PENDRIVE 32GB KINGSTON MODEL 100 G3 DT100G3/32GB",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Modelo DT100G3"],
+    "image": "assets/products/Varios/PEN030_PENDRIVE_32GB_KINGSTON_MODEL_100_G3_DT100G3-32GB.webp",
+    "code": "PEN030"
+  },
+  {
+    "title": "PENDRIVE 32GB EAGET MODEL U9L",
+    "brand": "Eaget",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Modelo U9L"],
+    "image": "assets/products/Varios/PEN031_PENDRIVE_32GB_EAGET_MODEL_U9L.webp",
+    "code": "PEN031"
+  },
+  {
+    "title": "PENDRIVE 32GB EAGET MODEL U6 GOLD, U6 RED",
+    "brand": "Eaget",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Modelos U6 Gold y U6 Red"],
+    "image": "assets/products/Varios/PEN032_PENDRIVE_32GB_EAGET_MODEL_U6_GOLD_U6_RED.webp",
+    "code": "PEN032"
+  },
+  {
+    "title": "PENDRIVE 32GB EAGET OTG V9 MODEL V86",
+    "brand": "Eaget",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "OTG V9", "Modelo V86"],
+    "image": "assets/products/Varios/PEN033_PENDRIVE_32GB_EAGET_OTG_V9_MODEL_V86.webp",
+    "code": "PEN033"
+  },
+  {
+    "title": "PENDRIVE 32GB EAGET TIPO C MODEL CU31",
+    "brand": "Eaget",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Tipo C", "Modelo CU31"],
+    "image": "assets/products/Varios/PEN034_PENDRIVE_32GB_EAGET_TIPO_C_MODEL_CU31.webp",
+    "code": "PEN034"
+  },
+  {
+    "title": "PENDRIVE 32GB EAGET MODEL U2",
+    "brand": "Eaget",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Modelo U2"],
+    "image": "assets/products/Varios/PEN035_PENDRIVE_32GB_EAGET_MODEL_U2.webp",
+    "code": "PEN035"
+  },
+  {
+    "title": "PENDRIVE 32GB KINGSTON EXODIA MODEL DTXM/32GB",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "Exodia", "Modelo DTXM/32GB"],
+    "image": "assets/products/Varios/PEN036_PENDRIVE_32GB_KINGSTON_EXODIA_MODEL_DTXM-32GB.webp",
+    "code": "PEN036"
+  },
+  {
+    "title": "PENDRIVE 32GB SANDISK USB 3.0 MODEL SDCZ73-032G-G46",
+    "brand": "SanDisk",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "32GB", "USB 3.0", "Modelo SDCZ73-032G-G46"],
+    "image": "assets/products/Varios/PEN037_PENDRIVE_32GB_SANDISK_USB_3.0_MODEL_SDCZ73-032G-G46.webp",
+    "code": "PEN037"
+  },
+  {
+    "title": "PENDRIVE 64GB HP MODEL V221W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo V221W"],
+    "image": "assets/products/Varios/PEN038_PENDRIVE_64GB_HP_MODEL_V221W.webp",
+    "code": "PEN038"
+  },
+  {
+    "title": "PENDRIVE 64GB HP MODEL V222W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo V222W"],
+    "image": "assets/products/Varios/PEN039_PENDRIVE_64GB_HP_MODEL_V222W.webp",
+    "code": "PEN039"
+  },
+  {
+    "title": "PENDRIVE 64GB HP MODEL V222V",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo V222V"],
+    "image": "assets/products/Varios/PEN040_PENDRIVE_64GB_HP_MODEL_V222V.webp",
+    "code": "PEN040"
+  },
+  {
+    "title": "PENDRIVE 64GB HP MODEL V165W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo V165W"],
+    "image": "assets/products/Varios/PEN041_PENDRIVE_64GB_HP_MODEL_V165W.webp",
+    "code": "PEN041"
+  },
+  {
+    "title": "PENDRIVE 64GB HP MODEL V295W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo V295W"],
+    "image": "assets/products/Varios/PEN042_PENDRIVE_64GB_HP_MODEL_V295W.webp",
+    "code": "PEN042"
+  },
+    {
+    "title": "PENDRIVE 64GB HP MODEL V236W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo V236W"],
+    "image": "assets/products/Varios/PEN043_PENDRIVE_64GB_HP_MODEL_V236W.webp",
+    "code": "PEN043"
+  },
+  {
+    "title": "PENDRIVE 64GB HP MODEL V212W",
+    "brand": "HP",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo V212W"],
+    "image": "assets/products/Varios/PEN044_PENDRIVE_64GB_HP_MODEL_V212W.webp",
+    "code": "PEN044"
+  },
+  {
+    "title": "PENDRIVE 64GB HIKSEMI MODEL HS-USB-E307C",
+    "brand": "Hiksemi",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo HS-USB-E307C"],
+    "image": "assets/products/Varios/PEN045_PENDRIVE_64GB_HIKSEMI_MODEL_HS-USB-E307C.webp",
+    "code": "PEN045"
+  },
+  {
+    "title": "PENDRIVE 64GB KINGSTON EXODIA MODEL DTX/64GB",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Exodia", "Modelo DTX/64GB"],
+    "image": "assets/products/Varios/PEN046_PENDRIVE_64GB_KINGSTON_EXODIA_MODEL_DTX-64GB.webp",
+    "code": "PEN046"
+  },
+  {
+    "title": "PENDRIVE 64GB KINGSTON MODEL G4",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo G4"],
+    "image": "assets/products/Varios/PEN047_PENDRIVE_64GB_KINGSTON_MODEL_G4.webp",
+    "code": "PEN047"
+  },
+  {
+    "title": "PENDRIVE 64GB KINGSTON MODEL G3",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo G3"],
+    "image": "assets/products/Varios/PEN048_PENDRIVE_64GB_KINGSTON_MODEL_G3.webp",
+    "code": "PEN048"
+  },
+  {
+    "title": "PENDRIVE 64GB KINGSTON TIPO C MODEL DT70/64GB",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Tipo C", "Modelo DT70/64GB"],
+    "image": "assets/products/Varios/PEN049_PENDRIVE_64GB_KINGSTON_TIPO_C_MODEL_DT70-64GB.webp",
+    "code": "PEN049"
+  },
+  {
+    "title": "PENDRIVE 64GB KINGSTON MODEL 100 G3 DT100G3/64GB",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo DT100G3"],
+    "image": "assets/products/Varios/PEN050_PENDRIVE_64GB_KINGSTON_MODEL_100_G3_DT100G3-64GB.webp",
+    "code": "PEN050"
+  },
+  {
+    "title": "PENDRIVE 64GB HIKVISION MODEL M210P 3.2",
+    "brand": "Hikvision",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo M210P", "USB 3.2"],
+    "image": "assets/products/Varios/PEN051_PENDRIVE_64GB_HIKVISION_MODEL_M210P_3.2.webp",
+    "code": "PEN051"
+  },
+  {
+    "title": "PENDRIVE MICRODRIVE 64GB",
+    "brand": "Microdrive",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB"],
+    "image": "assets/products/Varios/PEN052_PENDRIVE_MICRODRIVE_64GB.webp",
+    "code": "PEN052"
+  },
+  {
+    "title": "PENDRIVE HIKSEMI 64GB MODEL HS-USB-M220P",
+    "brand": "Hiksemi",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "64GB", "Modelo HS-USB-M220P"],
+    "image": "assets/products/Varios/PEN053_PENDRIVE_HIKSEMI_64GB_MODEL_HS-USB-M220P.webp",
+    "code": "PEN053"
+  },
+  {
+    "title": "PENDRIVE 128GB HIKSEMI MODEL HS-USB-E307C",
+    "brand": "Hiksemi",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "128GB", "Modelo HS-USB-E307C"],
+    "image": "assets/products/Varios/PEN054_PENDRIVE_128GB_HIKSEMI_MODEL_HS-USB-E307C.webp",
+    "code": "PEN054"
+  },
+  {
+    "title": "PENDRIVE 128GB KINGSTON MODEL G4",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "128GB", "Modelo G4"],
+    "image": "assets/products/Varios/PEN055_PENDRIVE_128GB_KINGSTON_MODEL_G4.webp",
+    "code": "PEN055"
+  },
+  {
+    "title": "PENDRIVE 128GB KINGSTON TIPO C MODEL DT70/128GB",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "128GB", "Tipo C", "Modelo DT70/128GB"],
+    "image": "assets/products/Varios/PEN056_PENDRIVE_128GB_KINGSTON_TIPO_C_MODEL_DT70-128GB.webp",
+    "code": "PEN056"
+  },
+  {
+    "title": "PENDRIVE 128GB KINGSTON EXODIA MODEL DTX/128GB, G3 DT100G3/128GB",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "128GB", "Exodia", "Modelo DTX/128GB", "Modelo DT100G3"],
+    "image": "assets/products/Varios/PEN057_PENDRIVE_128GB_KINGSTON_EXODIA_MODEL_DTX-128GB_G3_DT100G3-128GB.webp",
+    "code": "PEN057"
+  },
+  {
+    "title": "PENDRIVE 256GB KINGSTON EXODIA DTX/256GB",
+    "brand": "Kingston",
+    "condition": "Nuevo",
+    "category": "Varios",
+    "features": ["Pendrive", "256GB", "Exodia", "Modelo DTX/256GB"],
+    "image": "assets/products/Varios/PEN060_PENDRIVE_256GB_KINGSTON_EXODIA_DTX-256GB.webp",
+    "code": "PEN060"
   }
 ]
