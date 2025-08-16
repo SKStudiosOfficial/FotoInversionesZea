@@ -63,33 +63,6 @@
     "code": "ROU146"
   },
   {
-    "title": "ADAPTADOR USB WIFI AC1300 WIFI 5",
-    "brand": "Genérica",
-    "condition": "Nuevo",
-    "category": "Routers",
-    "features": ["Adaptador USB Wi-Fi", "AC1300", "Wi-Fi 5"],
-    "image": "assets/products/Routers/ROU060_ADAPTADOR_USB_WIFI_AC1300_WIFI_5.webp",
-    "code": "ROU060"
-  },
-  {
-    "title": "ANTENA 136 520 MHZ 47CM",
-    "brand": "Genérica",
-    "condition": "Nuevo",
-    "category": "Routers",
-    "features": ["Antena 136–520 MHz", "47 cm"],
-    "image": "assets/products/Routers/ROU131_ANTENA_136_520_MHZ_47CM.webp",
-    "code": "ROU131"
-  },
-  {
-    "title": "ANTENA 144 430MHZ 20CM",
-    "brand": "Genérica",
-    "condition": "Nuevo",
-    "category": "Routers",
-    "features": ["Antena 144/430 MHz", "20 cm"],
-    "image": "assets/products/Routers/ROU133_ANTENA_144_430MHZ_20CM.webp",
-    "code": "ROU133"
-  },
-  {
     "title": "ANTENA LITEBEAM AC GEN2 UBIQUITI MODEL LBE-5AC-GEN2",
     "brand": "Ubiquiti",
     "condition": "Nuevo",
@@ -151,15 +124,6 @@
     "features": ["Adaptador USB Wi-Fi", "Modelo MW150US"],
     "image": "assets/products/Routers/ROU054_ANTENA_USB_INALAMBRICA_MERCUSYS_MODEL_MW150US.webp",
     "code": "ROU054"
-  },
-  {
-    "title": "ANTENA WIFI 144 430 1200MHZ 20CM",
-    "brand": "Genérica",
-    "condition": "Nuevo",
-    "category": "Routers",
-    "features": ["Antena 144/430/1200 MHz", "20 cm"],
-    "image": "assets/products/Routers/ROU123_ANTENA_WIFI_144_430_1200MHZ_20CM.webp",
-    "code": "ROU123"
   },
   {
     "title": "ANTENA WIFI USB 600MBPS 2.4GHZ 802.11",
@@ -270,15 +234,6 @@
     "code": "ROU063"
   },
   {
-    "title": "MODEM ROUTER CANTV ADSL CHINA UNICOMP",
-    "brand": "Unicomp",
-    "condition": "Nuevo",
-    "category": "Routers",
-    "features": ["Modem Router", "CANTV ADSL"],
-    "image": "assets/products/Routers/ROU059_MODEM_ROUTER_CANTV_ADSL_CHINA_UNICOMP.webp",
-    "code": "ROU059"
-  },
-  {
     "title": "MODEM ROUTER MERCUSYS CANTV 2 ANTENAS MODEL MW300D",
     "brand": "Mercusys",
     "condition": "Nuevo",
@@ -297,7 +252,7 @@
     "code": "ROU085"
   },
   {
-    "title": "MODEM ROUTER TP-LINK CANTV AC1200 MODEL ARCHER VR300 DUALBAND 4 ANTENAS 28340",
+    "title": "MODEM ROUTER TP-LINK CANTV AC1200 MODEL ARCHER VR300 DUALBAND 4 ANTENAS",
     "brand": "TP-Link",
     "condition": "Nuevo",
     "category": "Routers",
@@ -315,7 +270,7 @@
     "code": "ROU061"
   },
   {
-    "title": "MODEN ROUTER CANTV 2 ANTENAS TP-LINK MODEL TD-W8961N 28307",
+    "title": "MODEN ROUTER CANTV 2 ANTENAS TP-LINK MODEL TD-W8961N",
     "brand": "TP-Link",
     "condition": "Nuevo",
     "category": "Routers",
@@ -333,25 +288,7 @@
     "code": "ROU006"
   },
   {
-    "title": "RECEPTOR DE BLUETOOTH TX XR",
-    "brand": "Genérica",
-    "condition": "Nuevo",
-    "category": "Routers",
-    "features": ["Receptor Bluetooth", "Modelo TX XR"],
-    "image": "assets/products/Routers/ROU138_RECEPTOR_DE_BLUETOOTH_TX_XR.webp",
-    "code": "ROU138"
-  },
-  {
-    "title": "REPETIDOR WIFI INALAMBRICO 2.4 GHZ ANTENA INTERNA 12593",
-    "brand": "Genérica",
-    "condition": "Nuevo",
-    "category": "Routers",
-    "features": ["Repetidor Wi-Fi", "2.4GHz", "Antena interna"],
-    "image": "assets/products/Routers/ROU142_REPETIDOR_WIFI_INALAMBRICO_2.4_GHZ_ANTENA_INTERNA_12593.webp",
-    "code": "ROU142"
-  },
-  {
-    "title": "REPETIDOR WIFI INALAMBRICO 4 ANTENAS 1200MBPS 12594",
+    "title": "REPETIDOR WIFI INALAMBRICO 4 ANTENAS 1200MBPS",
     "brand": "Genérica",
     "condition": "Nuevo",
     "category": "Routers",
@@ -448,15 +385,6 @@
     "features": ["Router Mi 4A", "Blanco"],
     "image": "assets/products/Routers/ROU010_ROUTER_MI_XIAOMI_4A_BLANCO.webp",
     "code": "ROU010"
-  },
-  {
-    "title": "ROUTER SECUTECH 3G 1 ANTENA MODEL RI3G-11S",
-    "brand": "Secutech",
-    "condition": "Nuevo",
-    "category": "Routers",
-    "features": ["Router 3G", "1 Antena", "Modelo RI3G-11S"],
-    "image": "assets/products/Routers/ROU005_ROUTER_SECUTECH_3G_1_ANTENA_MODEL_RI3G-11S.webp",
-    "code": "ROU005"
   },
   {
     "title": "ROUTER TENDA AX1500 4 ANTENAS DUAL BAND MODEL TX2 PRO",
@@ -585,12 +513,12 @@
     "code": "ROU012"
   },
   {
-    "title": "ROUTER XIAOMI RD23 AX3000T WIFI 6 4 ANTENAS TP-LINK",
+    "title": "ROUTER XIAOMI RD23 AX3000T WIFI 6 4 ANTENAS",
     "brand": "Xiaomi",
     "condition": "Nuevo",
     "category": "Routers",
     "features": ["Router", "RD23", "AX3000T", "Wi-Fi 6", "4 Antenas"],
-    "image": "assets/products/Routers/ROU129_ROUTER_XIAOMI_RD23_AX3000T_WIFI_6_4_ANTENAS_TP-LINK.webp",
+    "image": "assets/products/Routers/ROU129_ROUTER_XIAOMI_RD23_AX3000T_WIFI_6_4_ANTENAS.webp",
     "code": "ROU129"
   },
   {
@@ -621,7 +549,7 @@
     "code": "ROU079"
   },
   {
-    "title": "SWITCH SECUTECH, MERCUSYS 8 PUERTOS MODEL MS108G 24104",
+    "title": "SWITCH SECUTECH, MERCUSYS 8 PUERTOS MODEL MS108G",
     "brand": "Mercusys",
     "condition": "Nuevo",
     "category": "Routers",
@@ -648,12 +576,12 @@
     "code": "ROU093"
   },
   {
-    "title": "SWITCH TP-LINK 8 PUERTOS MODEL LS1008 10 100 MBPS 28212",
+    "title": "SWITCH TP-LINK 8 PUERTOS MODEL LS1008 10 100 MBPS",
     "brand": "TP-Link",
     "condition": "Nuevo",
     "category": "Routers",
     "features": ["Switch", "8 Puertos", "10/100 Mbps", "Modelo LS1008"],
-    "image": "assets/products/Routers/ROU095_SWITCH_TP-LINK_8_PUERTOS_MODEL_LS1008_10_100_MBPS_28212.webp",
+    "image": "assets/products/Routers/ROU095_SWITCH_TP-LINK_8_PUERTOS_MODEL_LS1008_10_100_MBPS.webp",
     "code": "ROU095"
   },
   {
@@ -718,5 +646,14 @@
     "features": ["Adaptador USB 2.0 a RJ45", "Modelo UE200"],
     "image": "assets/products/Routers/ROU097_USB_2.0_A_RJ45_ADAPTADOR_TP-LINK_MODEL_UE200.webp",
     "code": "ROU097"
+  },
+  {
+    "title": "ANTENA 136 520 MHZ 47CM",
+    "brand": "Genérica",
+    "condition": "Nuevo",
+    "category": "Routers",
+    "features": ["Antena 136–520 MHz", "47 cm"],
+    "image": "assets/products/Routers/ROU131_ANTENA_136_520_MHZ_47CM.webp",
+    "code": "ROU131"
   }
 ]
