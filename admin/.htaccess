@@ -1,0 +1,11 @@
+Options -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# Fuerza HTTPS en /admin
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+# Asegura JSON y PHP con caché razonable
+<FilesMatch "\.(json)$">
+ Header set Cache-Control "no-store, must-revalidate"
+</FilesMatch>
